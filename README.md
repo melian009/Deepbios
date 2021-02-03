@@ -2,7 +2,12 @@
 Evolving computational sustainability in rapidly changing exploited ecosystems
 
 Link to the data
+(Sustainability of the Oceans)
 https://drive.switch.ch/index.php/s/XtYYz37O3pqs8s1
+
+(Fishing)
+https://globalfishingwatch.org/data-download/
+
 
 
 January 15 2021 Ali Paco Carlos
