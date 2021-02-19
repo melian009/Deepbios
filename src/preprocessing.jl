@@ -119,9 +119,9 @@ order_disc = CategoricalDiscretizer(df.Order)
 class_disc = CategoricalDiscretizer(df.Class)
 hauldur_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(10), df.HaulDur))
 daynight_disc = CategoricalDiscretizer(df.DayNight)
-shootlat_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(10), df.ShootLat))
-shootlon_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(10), df.ShootLong))
-cpue_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(20), df.ShootLong))
+lat_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(10), df.ShootLat))
+lon_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(10), df.ShootLong))
+count_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(20), df.ShootLong))
 length_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(50), df.LngtClass))
 depth_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(10), df.Depth))
 
@@ -141,9 +141,9 @@ dfd[!, :month] = df.Month;
 dfd[!, :day] = df.Day;
 dfd[!, :hauldur] = encode(hauldur_disc, df.HaulDur);
 dfd[!, :daynight] = encode(daynight_disc, df.DayNight);
-dfd[!, :shootlat] = encode(shootlat_disc, df.ShootLat);
-dfd[!, :shootlon] = encode(shootlon_disc, df.ShootLong);
-dfd[!, :cpue] = encode(cpue_disc, df.CPUE_number_per_hour);
+dfd[!, :lat] = encode(lat_disc, df.ShootLat);
+dfd[!, :lon] = encode(lon_disc, df.ShootLong);
+dfd[!, :count] = encode(count_disc, df.CPUE_number_per_hour);
 dfd[!, :length] = encode(length_disc, df.LngtClass);
 dfd[!, :depth] = encode(depth_disc, df.Depth);
 
