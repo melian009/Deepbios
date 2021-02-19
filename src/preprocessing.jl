@@ -99,6 +99,54 @@ db_final = db_final[keeprows, :]
 
 # Save with JDF for compressed saving and fast loading
 JDF.save("DB_cleaned.jdf", db_final)
+#Load it with the command below:
+df = DataFrame(JDF.load("DB_cleaned.jdf"))
 
 ## TODO: Descretize the data
-# 1. bin continuous variables into groups
+using Discretizers
+
+dfd = DataFrame()
+# discretizers
+surv_disc = CategoricalDiscretizer(df.Survey)
+country_disc = CategoricalDiscretizer(df.Country)
+ship_disc = CategoricalDiscretizer(df.Ship)
+gear_disc = CategoricalDiscretizer(df.Gear)
+year_disc = CategoricalDiscretizer(df.Year)
+name_disc = CategoricalDiscretizer(df.Scientificname)
+genus_disc = CategoricalDiscretizer(df.Genus)
+family_disc = CategoricalDiscretizer(df.Family)
+order_disc = CategoricalDiscretizer(df.Order)
+class_disc = CategoricalDiscretizer(df.Class)
+hauldur_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(10), df.HaulDur))
+daynight_disc = CategoricalDiscretizer(df.DayNight)
+shootlat_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(10), df.ShootLat))
+shootlon_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(10), df.ShootLong))
+cpue_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(20), df.ShootLong))
+length_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(50), df.LngtClass))
+depth_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(10), df.Depth))
+
+# discretized df
+dfd[!, :survey] = encode(surv_disc, df.Survey)
+dfd[!, :quarter] = df.Quarter
+dfd[!, :coutry] = encode(country_disc, df.Country)
+dfd[!, :ship] = encode(ship_disc, df.Ship)
+dfd[!, :gear] = encode(gear_disc, df.Gear)
+dfd[!, :year] = encode(year_disc, df.Year)
+dfd[!, :name] = encode(name_disc, df.Scientificname)
+dfd[!, :genus] = encode(genus_disc, df.Genus)
+dfd[!, :family] = encode(family_disc, df.Family)
+dfd[!, :order] = encode(order_disc, df.Order);
+dfd[!, :class] = encode(class_disc, df.Class);
+dfd[!, :month] = df.Month;
+dfd[!, :day] = df.Day;
+dfd[!, :hauldur] = encode(hauldur_disc, df.HaulDur);
+dfd[!, :daynight] = encode(daynight_disc, df.DayNight);
+dfd[!, :shootlat] = encode(shootlat_disc, df.ShootLat);
+dfd[!, :shootlon] = encode(shootlon_disc, df.ShootLong);
+dfd[!, :cpue] = encode(cpue_disc, df.CPUE_number_per_hour);
+dfd[!, :length] = encode(length_disc, df.LngtClass);
+dfd[!, :depth] = encode(depth_disc, df.Depth);
+
+CSV.write("DB_cleaned_discretized.csv", dfd)
+
+# NB where is presence/absence data?
