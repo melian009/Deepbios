@@ -20,12 +20,12 @@ DBa <- read.csv("DB.csv")
 str(DBa)
 summary(DBa)
 
-# Filtering
+# Filter
 DB <- DB[!(DB$HLNoAtLngt == -9),]
 DB <- DB[!(DB$HaulDur == 0),]
 DB <- DB[!(DB$HaulDur > 200),]
 
-# Standarized
+# Standardization
 for (c in 1:nrow(DB)){
     if (DB$DataType[c] == 'C')
         DB$CPUE_number_per_hour[c] <- DB$HLNoAtLngt[c]
@@ -35,5 +35,5 @@ for (c in 1:nrow(DB)){
 
 
 
-write.table(DB,"DBcsv",
+write.table(DB,"DB.csv",
             sep=",",dec=".",col.names=NA)
