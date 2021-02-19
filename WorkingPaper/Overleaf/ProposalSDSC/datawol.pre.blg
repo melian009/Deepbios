@@ -1,0 +1,463 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: datawol.pre.aux
+The style file: unsrtnat.bst
+Database file #1: space.bib.bib
+You're missing a field part---line 91 of file space.bib.bib
+ :   volume = 
+ :            ,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 269 of file space.bib.bib
+ :   volume = 
+ :            ,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 302 of file space.bib.bib
+ :   volume = 
+ :            ,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 1171 of file space.bib.bib
+ :   volume = 
+ :            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2112 of file space.bib.bib
+ : @article{     Schmidhuber:2015
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2124 of file space.bib.bib
+ : @article{     Reichsteinetal:2019
+ :                                  ,
+I'm skipping whatever remains of this entry
+Warning--string name "oxford" is undefined
+--line 2182 of file space.bib.bib
+I was expecting a `,' or a `}'---line 2182 of file space.bib.bib
+ :   publisher = oxford 
+ :                      University Press. Oxford,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2191 of file space.bib.bib
+ :   publisher = Oxford 
+ :                      University Press. Oxford, pp. 27–86,
+I'm skipping whatever remains of this entry
+Name 1 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Futuyma, D. J., and Slatkin, M." has a comma at the end for entry Futuyma&Slatkin:1983
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Jacquet, C., and Moritz, C., and Morissette, L., and Legagneux, P., and Massol, F., and Archambault, P., and Gravel, D." has a comma at the end for entry Jacquetetal:2016
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Dunne, J. A., and Brose, U., and Williams, R. J., and Martinez, N. D." has a comma at the end for entry dunne2005modeling
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Thebault, E. T., and Fontaine, C." has a comma at the end for entry Thebault&Fontaine:2010
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Allesina, S., and Tang, S." has a comma at the end for entry Allesina&Tang:2012
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Johnson S., and Dom\'inguez-Garc\'ia V., and Donetti L., and Mu\~noz M. A." has a comma at the end for entry Johnsonetal:2014
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Mougi, A., and Kondoh, M." has a comma at the end for entry Mougi&Kondoh:2016
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Gravel, D., and Massol, F., and Leibold, M. A." has a comma at the end for entry Graveletal:2016
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Debat, V., and David, P." has a comma at the end for entry Debat&David:2001
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Hill, W. G., and Goddard, M. E., and Visscher, P. M." has a comma at the end for entry Hilletal:2008
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Forsberg, S. K. G., and Bloom, J. S., Sadhu, M. J., and Kruglyak, L., and Carlborg, \"O" has a comma at the end for entry Forsbergetal:2017
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Wagner, G.P., and Zhang, J." has a comma at the end for entry Wagner&Zhang:2011
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "North, T., -L., and Beaumont, M. A." has a comma at the end for entry North&Beaumont:2015
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Pavli$\check{c}$ev, M., and Cheverud, J." has a comma at the end for entry Pavlicevetal:2015
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Meli\'an, C. J., and Matthews, B., and Andreazzi, C. S., and Rodr\'guez, J. P., and Harmon, L. J., and Fortuna, M. A." has a comma at the end for entry Melianetal:2018
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Reichstein, M., and Camps-Valls, G., and Stevens, B., and Jung, M., and Denzler, J., and Carvalhais, N., and Prabhat" has a comma at the end for entry Reichsteinetal:2019
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Sheehan, S., and Song, Y. S." has a comma at the end for entry Sheehanetal:2016
+while executing---line 1233 of file unsrtnat.bst
+Name 1 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 4 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 5 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 6 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 7 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 8 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 9 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 10 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 11 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 12 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 13 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 14 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 15 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 16 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 17 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 18 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 19 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 20 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 21 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 22 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 4 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 5 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 6 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 7 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 8 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 9 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 10 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 11 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 12 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 13 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 14 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 15 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 16 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 17 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 18 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 19 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 20 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 21 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 22 in "Newbold, T., and Hudson, L. N., and Arnell, A. P., and Contu, S., and De Palma, A., and Ferrier, S., and Hill, S. L. L., and Hoskins, A. J., and Lysenko, I., and Phillips, H. R. P., and Burton, V. J., and Chng, C. W. T., and Emerson, S., and Gao, D., and Pask-Hale, G., and Hutton, J., and Jung, M., and Sanchez-Ortiz3, K., and Simmons, B. I., and Whitmee, S., and Zhang, H., and Scharlemann, J. P. W., and Purvis, A." has a comma at the end for entry Newboldetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Futuyma, D. J., and Slatkin, M." has a comma at the end for entry Futuyma&Slatkin:1983
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Futuyma, D. J., and Slatkin, M." has a comma at the end for entry Futuyma&Slatkin:1983
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Jacquet, C., and Moritz, C., and Morissette, L., and Legagneux, P., and Massol, F., and Archambault, P., and Gravel, D." has a comma at the end for entry Jacquetetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Jacquet, C., and Moritz, C., and Morissette, L., and Legagneux, P., and Massol, F., and Archambault, P., and Gravel, D." has a comma at the end for entry Jacquetetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Jacquet, C., and Moritz, C., and Morissette, L., and Legagneux, P., and Massol, F., and Archambault, P., and Gravel, D." has a comma at the end for entry Jacquetetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 4 in "Jacquet, C., and Moritz, C., and Morissette, L., and Legagneux, P., and Massol, F., and Archambault, P., and Gravel, D." has a comma at the end for entry Jacquetetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 5 in "Jacquet, C., and Moritz, C., and Morissette, L., and Legagneux, P., and Massol, F., and Archambault, P., and Gravel, D." has a comma at the end for entry Jacquetetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 6 in "Jacquet, C., and Moritz, C., and Morissette, L., and Legagneux, P., and Massol, F., and Archambault, P., and Gravel, D." has a comma at the end for entry Jacquetetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Jacquet, C., and Moritz, C., and Morissette, L., and Legagneux, P., and Massol, F., and Archambault, P., and Gravel, D." has a comma at the end for entry Jacquetetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Jacquet, C., and Moritz, C., and Morissette, L., and Legagneux, P., and Massol, F., and Archambault, P., and Gravel, D." has a comma at the end for entry Jacquetetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Jacquet, C., and Moritz, C., and Morissette, L., and Legagneux, P., and Massol, F., and Archambault, P., and Gravel, D." has a comma at the end for entry Jacquetetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 4 in "Jacquet, C., and Moritz, C., and Morissette, L., and Legagneux, P., and Massol, F., and Archambault, P., and Gravel, D." has a comma at the end for entry Jacquetetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 5 in "Jacquet, C., and Moritz, C., and Morissette, L., and Legagneux, P., and Massol, F., and Archambault, P., and Gravel, D." has a comma at the end for entry Jacquetetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 6 in "Jacquet, C., and Moritz, C., and Morissette, L., and Legagneux, P., and Massol, F., and Archambault, P., and Gravel, D." has a comma at the end for entry Jacquetetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Dunne, J. A., and Brose, U., and Williams, R. J., and Martinez, N. D." has a comma at the end for entry dunne2005modeling
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Dunne, J. A., and Brose, U., and Williams, R. J., and Martinez, N. D." has a comma at the end for entry dunne2005modeling
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Dunne, J. A., and Brose, U., and Williams, R. J., and Martinez, N. D." has a comma at the end for entry dunne2005modeling
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Dunne, J. A., and Brose, U., and Williams, R. J., and Martinez, N. D." has a comma at the end for entry dunne2005modeling
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Dunne, J. A., and Brose, U., and Williams, R. J., and Martinez, N. D." has a comma at the end for entry dunne2005modeling
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Dunne, J. A., and Brose, U., and Williams, R. J., and Martinez, N. D." has a comma at the end for entry dunne2005modeling
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Thebault, E. T., and Fontaine, C." has a comma at the end for entry Thebault&Fontaine:2010
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Thebault, E. T., and Fontaine, C." has a comma at the end for entry Thebault&Fontaine:2010
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Allesina, S., and Tang, S." has a comma at the end for entry Allesina&Tang:2012
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Allesina, S., and Tang, S." has a comma at the end for entry Allesina&Tang:2012
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Johnson S., and Dom\'inguez-Garc\'ia V., and Donetti L., and Mu\~noz M. A." has a comma at the end for entry Johnsonetal:2014
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Johnson S., and Dom\'inguez-Garc\'ia V., and Donetti L., and Mu\~noz M. A." has a comma at the end for entry Johnsonetal:2014
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Johnson S., and Dom\'inguez-Garc\'ia V., and Donetti L., and Mu\~noz M. A." has a comma at the end for entry Johnsonetal:2014
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Johnson S., and Dom\'inguez-Garc\'ia V., and Donetti L., and Mu\~noz M. A." has a comma at the end for entry Johnsonetal:2014
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Johnson S., and Dom\'inguez-Garc\'ia V., and Donetti L., and Mu\~noz M. A." has a comma at the end for entry Johnsonetal:2014
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Johnson S., and Dom\'inguez-Garc\'ia V., and Donetti L., and Mu\~noz M. A." has a comma at the end for entry Johnsonetal:2014
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Mougi, A., and Kondoh, M." has a comma at the end for entry Mougi&Kondoh:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Mougi, A., and Kondoh, M." has a comma at the end for entry Mougi&Kondoh:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Gravel, D., and Massol, F., and Leibold, M. A." has a comma at the end for entry Graveletal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Gravel, D., and Massol, F., and Leibold, M. A." has a comma at the end for entry Graveletal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Gravel, D., and Massol, F., and Leibold, M. A." has a comma at the end for entry Graveletal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Gravel, D., and Massol, F., and Leibold, M. A." has a comma at the end for entry Graveletal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Debat, V., and David, P." has a comma at the end for entry Debat&David:2001
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Debat, V., and David, P." has a comma at the end for entry Debat&David:2001
+while executing---line 1315 of file unsrtnat.bst
+Warning--empty publisher in Wagner:2005
+Name 1 in "Hill, W. G., and Goddard, M. E., and Visscher, P. M." has a comma at the end for entry Hilletal:2008
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Hill, W. G., and Goddard, M. E., and Visscher, P. M." has a comma at the end for entry Hilletal:2008
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Hill, W. G., and Goddard, M. E., and Visscher, P. M." has a comma at the end for entry Hilletal:2008
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Hill, W. G., and Goddard, M. E., and Visscher, P. M." has a comma at the end for entry Hilletal:2008
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Forsberg, S. K. G., and Bloom, J. S., Sadhu, M. J., and Kruglyak, L., and Carlborg, \"O" has a comma at the end for entry Forsbergetal:2017
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Forsberg, S. K. G., and Bloom, J. S., Sadhu, M. J., and Kruglyak, L., and Carlborg, \"O" has a comma at the end for entry Forsbergetal:2017
+while executing---line 1315 of file unsrtnat.bst
+Too many commas in name 2 of "Forsberg, S. K. G., and Bloom, J. S., Sadhu, M. J., and Kruglyak, L., and Carlborg, \"O" for entry Forsbergetal:2017
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Forsberg, S. K. G., and Bloom, J. S., Sadhu, M. J., and Kruglyak, L., and Carlborg, \"O" has a comma at the end for entry Forsbergetal:2017
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Forsberg, S. K. G., and Bloom, J. S., Sadhu, M. J., and Kruglyak, L., and Carlborg, \"O" has a comma at the end for entry Forsbergetal:2017
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Forsberg, S. K. G., and Bloom, J. S., Sadhu, M. J., and Kruglyak, L., and Carlborg, \"O" has a comma at the end for entry Forsbergetal:2017
+while executing---line 1315 of file unsrtnat.bst
+Too many commas in name 2 of "Forsberg, S. K. G., and Bloom, J. S., Sadhu, M. J., and Kruglyak, L., and Carlborg, \"O" for entry Forsbergetal:2017
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Forsberg, S. K. G., and Bloom, J. S., Sadhu, M. J., and Kruglyak, L., and Carlborg, \"O" has a comma at the end for entry Forsbergetal:2017
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Wagner, G.P., and Zhang, J." has a comma at the end for entry Wagner&Zhang:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Wagner, G.P., and Zhang, J." has a comma at the end for entry Wagner&Zhang:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "North, T., -L., and Beaumont, M. A." has a comma at the end for entry North&Beaumont:2015
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "North, T., -L., and Beaumont, M. A." has a comma at the end for entry North&Beaumont:2015
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Pavli$\check{c}$ev, M., and Cheverud, J." has a comma at the end for entry Pavlicevetal:2015
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Pavli$\check{c}$ev, M., and Cheverud, J." has a comma at the end for entry Pavlicevetal:2015
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 4 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 5 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 6 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 7 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 8 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 9 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 10 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 11 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 12 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 13 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 14 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 15 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 16 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 4 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 5 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 6 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 7 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 8 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 9 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 10 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 11 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 12 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 13 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 14 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 15 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 16 in "Whitham, T. G., and Bailey, J. K., and Schweitzer, J. A., and Shuster, S. M., and Bangert, R. K., and LeRoy, C. J., and Lonsdorf, E. V., and Allan, G. J., and DiFazio, S. P., and Potts, B. M., and Fischer, D. G., and Gehring, C. A., and Lindroth, r. L., and Marks, J. C., and Hart, S. C., and Wimp G. M., and Wooley, S. C." has a comma at the end for entry Whithametal:2006
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 4 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 5 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 6 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 7 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 4 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 5 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 6 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 7 in "Fontaine, C., and Guimar\~aes, P. R., and K\'efi, S., and Loeuille, N., and Memmott, J., and van Der Putten, W. H., and van Veen, F. J. F., and Th\'ebault, E." has a comma at the end for entry Fontaineetal:2011
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Meli\'an, C. J., and Matthews, B., and Andreazzi, C. S., and Rodr\'guez, J. P., and Harmon, L. J., and Fortuna, M. A." has a comma at the end for entry Melianetal:2018
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Meli\'an, C. J., and Matthews, B., and Andreazzi, C. S., and Rodr\'guez, J. P., and Harmon, L. J., and Fortuna, M. A." has a comma at the end for entry Melianetal:2018
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Meli\'an, C. J., and Matthews, B., and Andreazzi, C. S., and Rodr\'guez, J. P., and Harmon, L. J., and Fortuna, M. A." has a comma at the end for entry Melianetal:2018
+while executing---line 1315 of file unsrtnat.bst
+Name 4 in "Meli\'an, C. J., and Matthews, B., and Andreazzi, C. S., and Rodr\'guez, J. P., and Harmon, L. J., and Fortuna, M. A." has a comma at the end for entry Melianetal:2018
+while executing---line 1315 of file unsrtnat.bst
+Name 5 in "Meli\'an, C. J., and Matthews, B., and Andreazzi, C. S., and Rodr\'guez, J. P., and Harmon, L. J., and Fortuna, M. A." has a comma at the end for entry Melianetal:2018
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Meli\'an, C. J., and Matthews, B., and Andreazzi, C. S., and Rodr\'guez, J. P., and Harmon, L. J., and Fortuna, M. A." has a comma at the end for entry Melianetal:2018
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Meli\'an, C. J., and Matthews, B., and Andreazzi, C. S., and Rodr\'guez, J. P., and Harmon, L. J., and Fortuna, M. A." has a comma at the end for entry Melianetal:2018
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Meli\'an, C. J., and Matthews, B., and Andreazzi, C. S., and Rodr\'guez, J. P., and Harmon, L. J., and Fortuna, M. A." has a comma at the end for entry Melianetal:2018
+while executing---line 1315 of file unsrtnat.bst
+Name 4 in "Meli\'an, C. J., and Matthews, B., and Andreazzi, C. S., and Rodr\'guez, J. P., and Harmon, L. J., and Fortuna, M. A." has a comma at the end for entry Melianetal:2018
+while executing---line 1315 of file unsrtnat.bst
+Name 5 in "Meli\'an, C. J., and Matthews, B., and Andreazzi, C. S., and Rodr\'guez, J. P., and Harmon, L. J., and Fortuna, M. A." has a comma at the end for entry Melianetal:2018
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Reichstein, M., and Camps-Valls, G., and Stevens, B., and Jung, M., and Denzler, J., and Carvalhais, N., and Prabhat" has a comma at the end for entry Reichsteinetal:2019
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Reichstein, M., and Camps-Valls, G., and Stevens, B., and Jung, M., and Denzler, J., and Carvalhais, N., and Prabhat" has a comma at the end for entry Reichsteinetal:2019
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Reichstein, M., and Camps-Valls, G., and Stevens, B., and Jung, M., and Denzler, J., and Carvalhais, N., and Prabhat" has a comma at the end for entry Reichsteinetal:2019
+while executing---line 1315 of file unsrtnat.bst
+Name 4 in "Reichstein, M., and Camps-Valls, G., and Stevens, B., and Jung, M., and Denzler, J., and Carvalhais, N., and Prabhat" has a comma at the end for entry Reichsteinetal:2019
+while executing---line 1315 of file unsrtnat.bst
+Name 5 in "Reichstein, M., and Camps-Valls, G., and Stevens, B., and Jung, M., and Denzler, J., and Carvalhais, N., and Prabhat" has a comma at the end for entry Reichsteinetal:2019
+while executing---line 1315 of file unsrtnat.bst
+Name 6 in "Reichstein, M., and Camps-Valls, G., and Stevens, B., and Jung, M., and Denzler, J., and Carvalhais, N., and Prabhat" has a comma at the end for entry Reichsteinetal:2019
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Reichstein, M., and Camps-Valls, G., and Stevens, B., and Jung, M., and Denzler, J., and Carvalhais, N., and Prabhat" has a comma at the end for entry Reichsteinetal:2019
+while executing---line 1315 of file unsrtnat.bst
+Name 2 in "Reichstein, M., and Camps-Valls, G., and Stevens, B., and Jung, M., and Denzler, J., and Carvalhais, N., and Prabhat" has a comma at the end for entry Reichsteinetal:2019
+while executing---line 1315 of file unsrtnat.bst
+Name 3 in "Reichstein, M., and Camps-Valls, G., and Stevens, B., and Jung, M., and Denzler, J., and Carvalhais, N., and Prabhat" has a comma at the end for entry Reichsteinetal:2019
+while executing---line 1315 of file unsrtnat.bst
+Name 4 in "Reichstein, M., and Camps-Valls, G., and Stevens, B., and Jung, M., and Denzler, J., and Carvalhais, N., and Prabhat" has a comma at the end for entry Reichsteinetal:2019
+while executing---line 1315 of file unsrtnat.bst
+Name 5 in "Reichstein, M., and Camps-Valls, G., and Stevens, B., and Jung, M., and Denzler, J., and Carvalhais, N., and Prabhat" has a comma at the end for entry Reichsteinetal:2019
+while executing---line 1315 of file unsrtnat.bst
+Name 6 in "Reichstein, M., and Camps-Valls, G., and Stevens, B., and Jung, M., and Denzler, J., and Carvalhais, N., and Prabhat" has a comma at the end for entry Reichsteinetal:2019
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Sheehan, S., and Song, Y. S." has a comma at the end for entry Sheehanetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Sheehan, S., and Song, Y. S." has a comma at the end for entry Sheehanetal:2016
+while executing---line 1315 of file unsrtnat.bst
+Warning--empty publisher in Bianconi:2018
+You've used 34 entries,
+            2481 wiz_defined-function locations,
+            784 strings with 10702 characters,
+and the built_in function-call counts, 13503 in all, are:
+= -- 1048
+> -- 782
+< -- 24
++ -- 304
+- -- 236
+* -- 1059
+:= -- 2232
+add.period$ -- 104
+call.type$ -- 34
+change.case$ -- 62
+chr.to.int$ -- 34
+cite$ -- 36
+duplicate$ -- 655
+empty$ -- 1222
+format.name$ -- 288
+if$ -- 2845
+int.to.chr$ -- 1
+int.to.str$ -- 35
+missing$ -- 40
+newline$ -- 178
+num.names$ -- 102
+pop$ -- 268
+preamble$ -- 1
+purify$ -- 34
+quote$ -- 0
+skip$ -- 379
+stack$ -- 0
+substring$ -- 660
+swap$ -- 77
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 220
+warning$ -- 2
+while$ -- 97
+width$ -- 0
+write$ -- 443
+(There were 198 error messages)

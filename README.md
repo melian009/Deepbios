@@ -2,7 +2,12 @@
 Evolving computational sustainability in rapidly changing exploited ecosystems
 
 Link to the data
+(Sustainability of the Oceans)
 https://drive.switch.ch/index.php/s/XtYYz37O3pqs8s1
+
+(Fishing)
+https://globalfishingwatch.org/data-download/
+
 
 
 January 15 2021 Ali Paco Carlos
@@ -18,3 +23,7 @@ METHODS
 2. Write down the structure of the Bayesian probabilitic causal graph (BPCG) accounting for 
 sampling heterogeneity and bias. For example, gears should be represented as a node. 
 3. Write down the full BPCG as conditional probability tables from each node (i.e., drawn given the parent node and the data) from which we can estimate differential strength between each gear and each fish species. Data comes from the data to fill out the BPCG to explore the total sampling heterogeneity and bias. 
+
+
+WORKING PAPER 
+https://www.overleaf.com/project/5f772ed0806c630001fffc3a

@@ -1,0 +1,307 @@
+\begin{thebibliography}{48}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Darwin(1964)]{Darwin:1964}
+C.~Darwin.
+\newblock \emph{On the Origin of Species}.
+\newblock Harvard Univ. Press, Cambridge, 1964.
+
+\bibitem[Futuyma and Slatkin(1983)]{Futuyma&Slatkin:1983}
+D.~J. Futuyma and M.~Slatkin.
+\newblock \emph{Coevolution}.
+\newblock Sinauer Associates Inc. Sunderland, Mass., 1983.
+
+\bibitem[Thompson(2013)]{Thompson:2013}
+J.~N. Thompson.
+\newblock \emph{Relentless Evolution}.
+\newblock University of Chicago Press, Chicago, 2013.
+
+\bibitem[MacArthur(1955)]{MacArthur:1955}
+R.~MacArthur.
+\newblock Fluctuations of animal populations and a measure of community
+  stability.
+\newblock \emph{Ecology}, 36:\penalty0 533--536, 1955.
+
+\bibitem[May(1973)]{May:1973}
+R.~M. May.
+\newblock \emph{Stability and Complexity in Model Ecosystems}.
+\newblock Princeton Univ. Press, Princeton, USA., 1973.
+
+\bibitem[Jacquet et~al.(2016)Jacquet, Moritz, Morissette, Legagneux, Massol,
+  Archambault, and Gravel]{Jacquetetal:2016}
+C.~Jacquet, C.~Moritz, L.~Morissette, P.~Legagneux, F.~Massol, P.~Archambault,
+  and D.~Gravel.
+\newblock No complexity-stability relationship in empirical ecosystems.
+\newblock \emph{Nature Communications}, 7:\penalty0 12573, 2016.
+
+\bibitem[Dunne et~al.(2005)Dunne, Brose, Williams, and
+  Martinez]{dunne2005modeling}
+J.~A. Dunne, U.~Brose, R.~J. Williams, and N.~D. Martinez.
+\newblock Modeling food-web dynamics: complexity-stability implications.
+\newblock \emph{Aquatic food webs: an ecosystem approach, Andrea Belgrano,
+  Ursula M. Scharler, Jennifer Dunne, and Robert E. Ulanowicz (eds)}, pages
+  117--129, 2005.
+
+\bibitem[Thebault and Fontaine(2010)]{Thebault&Fontaine:2010}
+E.~T. Thebault and C.~Fontaine.
+\newblock Stability of ecological communities and the architecture of
+  mutualistic and trophic networks.
+\newblock \emph{Science}, 329:\penalty0 853--856, 2010.
+
+\bibitem[Allesina and Tang(2012)]{Allesina&Tang:2012}
+S.~Allesina and S.~Tang.
+\newblock Stability criteria for complex ecosystems.
+\newblock \emph{Nature}, 483:\penalty0 205--208, 2012.
+
+\bibitem[S. et~al.(2014)S., V., L., and noz M.~A.]{Johnsonetal:2014}
+Johnson S., Dom\'inguez-Garc\'ia V., Donetti L., and Mu\ noz M.~A.
+\newblock Trophic coherence determines food-web stability.
+\newblock \emph{Proceedings of the National Academy of Sciences of the U. S.
+  A.}, 111:\penalty0 17923--17928, 2014.
+
+\bibitem[Mougi and Kondoh(2016)]{Mougi&Kondoh:2016}
+A.~Mougi and M.~Kondoh.
+\newblock Food-web complexity, meta-community complexity and community
+  stability.
+\newblock \emph{Scientific Reports}, 6:\penalty0 24478, 2016.
+
+\bibitem[Gravel et~al.(2016)Gravel, Massol, and Leibold]{Graveletal:2016}
+D.~Gravel, F.~Massol, and M.~A. Leibold.
+\newblock Stability and complexity in model meta-ecosystems.
+\newblock \emph{Nature Communications}, 7:\penalty0 12457, 2016.
+
+\bibitem[Alberch(1991)]{Alberch:1991}
+P.~Alberch.
+\newblock From genes to phenotype: dynamical systems and evolvability.
+\newblock \emph{Genetica}, 84:\penalty0 5--11, 1991.
+
+\bibitem[Arnold(1992)]{Arnold:1992}
+J.~S. Arnold.
+\newblock Constraints on phenotypic evolution.
+\newblock \emph{The American Naturalist}, 140:\penalty0 S85--S107, 1992.
+
+\bibitem[Debat and David(2001)]{Debat&David:2001}
+V.~Debat and P.~David.
+\newblock Mapping phenotypes: canalization, plasticity and developmental
+  stability.
+\newblock \emph{Trends in Ecology and Evolution}, 16:\penalty0 555--561, 2001.
+
+\bibitem[Wagner(2005)]{Wagner:2005}
+A.~Wagner.
+\newblock \emph{Robustness and evolvability in living systems}.
+\newblock (Princeton University Press), Princeton, USA. 2005.
+
+\bibitem[Hill et~al.(2008)Hill, Goddard, and Visscher]{Hilletal:2008}
+W.~G. Hill, M.~E. Goddard, and P.~M. Visscher.
+\newblock Data and theory point to mainly additive genetic variance for complex
+  traits.
+\newblock \emph{PLoS Genetics}, 4:\penalty0 e1000008, 2008.
+
+\bibitem[Forsberg et~al.(2017)Forsberg, Bloom, Kruglyak, and
+  Carlborg]{Forsbergetal:2017}
+S.~K.~G. Forsberg, Sadhu M.~J. Bloom, J.~S., L.~Kruglyak, and \"O Carlborg.
+\newblock Accounting for genetic interactions improves modeling of individual
+  quantitative trait phenotypes in yeast.
+\newblock \emph{Nature Genetics}, 49:\penalty0 497--503, 2017.
+
+\bibitem[Stearns(2010)]{Stearns:2010}
+F.~W. Stearns.
+\newblock One hundred years of pleiotropy: A retrospective.
+\newblock \emph{Genetics}, 186:\penalty0 767--773, 2010.
+
+\bibitem[Eyre-Walker(2010)]{EyreWalker:2010}
+A.~Eyre-Walker.
+\newblock Genetic architecture of a complex trait and its implications for
+  fitness and genome-wide association studies.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 107:\penalty0
+  1752--1756, 2010.
+
+\bibitem[Wagner and Zhang(2011)]{Wagner&Zhang:2011}
+G.P. Wagner and J.~Zhang.
+\newblock The pleiotropic structure of the genotype-phenotype map: the
+  evolvability of complex organisms.
+\newblock \emph{Nature Reviews Genetics}, 12:\penalty0 204--213, 2011.
+
+\bibitem[Mackay(2014)]{Mackay:2014}
+T.~F.~C. Mackay.
+\newblock Epistasis and quantitative traits: using model organisms to study
+  gene-gene interactions.
+\newblock \emph{Nature Reviews Genetics}, 15:\penalty0 22--33, 2014.
+
+\bibitem[North and Beaumont(2015)]{North&Beaumont:2015}
+L.~North, T. and M.~A. Beaumont.
+\newblock Complex trait architecture: the pleiotropic model revisited.
+\newblock \emph{Scientific Reports}, 5:\penalty0 9351, 2015.
+
+\bibitem[Pavli$\check{c}$ev and Cheverud(2015)]{Pavlicevetal:2015}
+M.~Pavli$\check{c}$ev and J.~Cheverud.
+\newblock Constraints evolve: Context dependency of gene effects allows
+  evolution of pleiotropy.
+\newblock \emph{Annual Review of Ecology Evolution and Systematics},
+  46:\penalty0 413--434, 2015.
+
+\bibitem[Whitham et~al.(2006)Whitham, Bailey, Schweitzer, Shuster, Bangert,
+  LeRoy, Lonsdorf, Allan, DiFazio, Potts, Fischer, Gehring, Lindroth, Marks,
+  Hart, M., and Wooley]{Whithametal:2006}
+T.~G. Whitham, J.~K. Bailey, J.~A. Schweitzer, S.~M. Shuster, R.~K. Bangert,
+  C.~J. LeRoy, E.~V. Lonsdorf, G.~J. Allan, S.~P. DiFazio, B.~M. Potts, D.~G.
+  Fischer, C.~A. Gehring, r.~L. Lindroth, J.~C. Marks, S.~C. Hart, Wimp~G. M.,
+  and S.~C. Wooley.
+\newblock A framework for community and ecosystem genetics: from genes to
+  ecosystems.
+\newblock \emph{Nature reviews Genetics}, 7:\penalty0 510--523, 2006.
+
+\bibitem[Loeuille(2010)]{Loeuille:2010}
+N.~Loeuille.
+\newblock Influence of evolution on the stability of ecological communities.
+\newblock \emph{Ecology Letters}, 13:\penalty0 1536--1545, 2010.
+
+\bibitem[Fontaine et~al.(2011)Fontaine, Guimar\~aes, K\'efi, Loeuille, Memmott,
+  van Der~Putten, van Veen, and Th\'ebault]{Fontaineetal:2011}
+C.~Fontaine, P.~R. Guimar\~aes, S.~K\'efi, N.~Loeuille, J.~Memmott, W.~H. van
+  Der~Putten, F.~J.~F. van Veen, and E.~Th\'ebault.
+\newblock The ecological and evolutionary implications of merging different
+  types of networks.
+\newblock \emph{Ecology Letters}, 14:\penalty0 1170--1181, 2011.
+
+\bibitem[Kivela et~al.(2014)Kivela, Arenas, Barthelemy, Gleeson, Moreno, and
+  Porter]{Kivelaetal:2014}
+M.~Kivela, A.~Arenas, M.~Barthelemy, J.~P. Gleeson, Y.~Moreno, and M.~A.
+  Porter.
+\newblock Multilayer networks.
+\newblock \emph{Journal of Complex Networks}, 3:\penalty0 203--271, 2014.
+
+\bibitem[Ahn et~al.(2010)Ahn, Bagrow, and Lehmann]{Ahnetal:2010}
+Y-Y. Ahn, J.~P. Bagrow, and S.~Lehmann.
+\newblock Link communities reveal multiscale complexity in networks.
+\newblock \emph{Nature}, 466:\penalty0 761--765, 2010.
+
+\bibitem[De~Domenico et~al.(2014)De~Domenico, Porter, and
+  Arenas]{DeDomenico:2014}
+M.~De~Domenico, M.~A. Porter, and A.~Arenas.
+\newblock Muxviz: a tool for multilayer analysis and visualization of networks.
+\newblock \emph{Journal of Complex Networks}, 3:\penalty0 159--176, 2014.
+
+\bibitem[Morrison and Badyaev(2016)]{Morrison&Badyaev:2016}
+E.~S. Morrison and A.~V. Badyaev.
+\newblock The landscape of evolution: Reconciling structural and dynamical
+  properties of metabolic networks in adaptive diversifications.
+\newblock \emph{Integrative and Comparative Biology}, 56:\penalty0 235--246,
+  2016.
+
+\bibitem[Schneider et~al.(2011)Schneider, Moreira, Andrade, Havlin, and
+  Herrmann]{Schneideretal:2011}
+C.~M. Schneider, A.~A. Moreira, J.~S.~Jr. Andrade, S.~Havlin, and H.~J.
+  Herrmann.
+\newblock Mitigation of malicious attacks on networks.
+\newblock \emph{Proceedings of the National Academy of Sciences of the U. S.
+  A.}, 108:\penalty0 3838--3841, 2011.
+
+\bibitem[Kivela(2013)]{Kivela:2013}
+M.~Kivela.
+\newblock Multilayer networks library.
+\newblock \emph{http://www.plexmath.eu/?page\_id=327}, 2013.
+
+\bibitem[Cantor et~al.(2017)Cantor, Pires, Marquitti, Raimundo,
+  Sebasti\'an-Gonz\'alez, Coltri, Perez, Barneche, Brandt, Nunes, Daura-Jorge,
+  Floeter, and Guimaraes~Jr.]{Cantoretal:2017}
+M.~Cantor, M.~M. Pires, F.~M.~D. Marquitti, R.~L.~G. Raimundo,
+  E.~Sebasti\'an-Gonz\'alez, P.~P. Coltri, I.~Perez, D.~R. Barneche, D.~Y.~C.
+  Brandt, K.~Nunes, F.~G. Daura-Jorge, S.~R. Floeter, and P.~R. Guimaraes~Jr.
+\newblock Nestedness across biological scales.
+\newblock \emph{PLoS One}, pages 1993--2002, 2017.
+
+\bibitem[Bastolla et~al.(2009)Bastolla, Fortuna, Pascual-Garc\'ia, Luque, and
+  Bascompte]{Bastollaetal:2009}
+U.~Bastolla, M.~A. Fortuna, Ferrera~A. Pascual-Garc\'ia, A., B.~Luque, and
+  J.~Bascompte.
+\newblock The architecture of mutualistic networks minimizes competition and
+  increases biodiversity.
+\newblock \emph{Nature}, 458:\penalty0 1018--1020, 2009.
+
+\bibitem[Staniczenko et~al.(2013)Staniczenko, Kopp, and
+  Allesina]{Staniczenkoetal:2013}
+P.~P.~A. Staniczenko, J.~C. Kopp, and S.~Allesina.
+\newblock The ghost of nestedness in ecological networks.
+\newblock \emph{Nature Communications}, 4:\penalty0 1391, 2013.
+
+\bibitem[Mueller(2010)]{Mueller:2010}
+K.~Mueller.
+\newblock \emph{Construction and behavior of Multinomial Markov random field
+  models}.
+\newblock Gradudate Theses and Dissertations. 11419, Iowa State University,
+  USA, http://lib.dr.iastate.edu/etd/11419, 2010.
+
+\bibitem[Besag(1974)]{Besag:1974}
+J.~Besag.
+\newblock Spatial interaction and the statistical analysis of lattice systems.
+\newblock \emph{Journal of the Royal Statistical Society, Series B
+  (Methodological)}, 36:\penalty0 192--236, 1974.
+
+\bibitem[Harris(2016)]{Harris:2016}
+D.~J. Harris.
+\newblock Inferring species interactions from co-occurrence data with markov
+  networks.
+\newblock \emph{Ecology}, 97:\penalty0 3308--3314, 2016.
+
+\bibitem[Clark et~al.(2018)Clark, Wells, and Lindberg]{Clarketal:2018}
+N.~J. Clark, K.~Wells, and O.~Lindberg.
+\newblock Unravelling changing interspecific interactions across environmental
+  gradients using markov random fields.
+\newblock \emph{Ecology (doi: 110.1002/ecy.2221)}, 2018.
+
+\bibitem[Solovieff et~al.(2013)Solovieff, Cotsapas, Lee, Purcell, and
+  Smoller]{Solovieffetal:2013}
+N.~Solovieff, C.~Cotsapas, P.~H. Lee, S.~M. Purcell, and J.~W. Smoller.
+\newblock Pleiotropy in complex traits: challenges and strategies.
+\newblock \emph{Nature Reviews Genetics}, 14:\penalty0 483--495, 2013.
+
+\bibitem[Melo and Marroig(2015)]{Melo&Marroig:2015}
+D.~Melo and G.~Marroig.
+\newblock Directional selection can drive the evolution of modularity in
+  complex traits.
+\newblock \emph{Proceedings of the National Academy of Sciences of the U. S.
+  A.}, 112:\penalty0 470--475, 2015.
+
+\bibitem[Loeuille and Loreau(2005)]{Loeuille&Loreau:2005}
+N.~Loeuille and M.~Loreau.
+\newblock Evolutionary emergence of size-structured food webs.
+\newblock \emph{Proceedings of the National Academy of Sciences of the U. S.
+  A.}, 102:\penalty0 5761--5766, 2005.
+
+\bibitem[Allhoff and Drossel(2013)]{Allhoff&Drossel:2013}
+K.~T. Allhoff and B.~Drossel.
+\newblock When do evolutionary food web models generate complex networks?
+\newblock \emph{Journal of Theoretical Biology}, 334:\penalty0 122--129, 2013.
+
+\bibitem[Meli\'an et~al.(2014)Meli\'an, Bald\'o, Matthews, Vilas,
+  Gonz\'alez-Orteg\'on, Drake, and Williams]{Melianetal:2014}
+C.~J. Meli\'an, F.~Bald\'o, B.~Matthews, C.~Vilas, E.~Gonz\'alez-Orteg\'on,
+  P.~Drake, and R.~J. Williams.
+\newblock Individual trait variation and diversity in food webs.
+\newblock \emph{Advances in Ecological Research}, 50:\penalty0 207--241, 2014.
+
+\bibitem[Guimar\~aes et~al.(2017)Guimar\~aes, Pires, Jordano, Bascompte, and
+  Thompson]{Guimaraesetal:2017}
+P.~R. Guimar\~aes, Jr., M.~M. Pires, P.~Jordano, J.~Bascompte, and J.~N.
+  Thompson.
+\newblock Indirect effects drive coevolution in mutualistic networks.
+\newblock \emph{Nature}, 550:\penalty0 511--514, 2017.
+
+\bibitem[DeLong and Gibert(2016)]{DeLong&Gibert:2016}
+J.~P. DeLong and J.~P. Gibert.
+\newblock Gillespie eco-evolutionary models ({GEM}s) reveal the role of
+  heritable trait variation in eco-evolutionary dynamics.
+\newblock \emph{Ecology and Evolution. doi:10.1002/ece3.1959}, 2016.
+
+\bibitem[Deyle et~al.(2017)Deyle, May, Munch, and Sugihara]{Deyletal:2017}
+E.~R. Deyle, R.~M. May, S.~B. Munch, and G.~Sugihara.
+\newblock Tracking and forecasting ecosystem interactions in real time.
+\newblock \emph{Proceedings of the Royal Society B Biological Sciences},
+  283:\penalty0 20152258, 2017.
+
+\end{thebibliography}
