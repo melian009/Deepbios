@@ -2,9 +2,11 @@ library(bnlearn)
 
 df = read.csv("DB_cleaned_discretized.csv")
 
-dim(df)
+## change data type to factor because bnlearn needs that
+df[, 1:20] <- lapply(df[,1:20], as.factor)
 
-data(learning.test)
+# dim(df)
+# data(learning.test)
 
 # Tutorials: https://www.bnlearn.com/examples/
 
@@ -19,7 +21,7 @@ data(learning.test)
 """
 
 wl = read.csv("node_whitelist.csv")
-bl = read.csv("node_whitelist.csv")
+bl = read.csv("node_blacklist.csv")
 
 ## Structure learning with PC algorithm. To use other algorithms, `?inter.iamb
 
