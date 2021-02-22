@@ -4,8 +4,8 @@ Evolving computational sustainability in rapidly changing exploited ecosystems
 
 # Workflow
 
-![plot](Workflow.jpeg)
-
+##![plot](Workflow.jpeg)
+<img src="Workflow.jpeg" width="800px" height="auto">
 
 ## Link to the data
 (Sustainability of the Oceans)
