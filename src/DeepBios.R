@@ -7,20 +7,17 @@ rm(list=ls())
 getwd()
 dir()
 
-setwd("C:/Paco/GitHub/Tempo/DATRAS/Code/R")
+setwd("C:/Paco/GitHub/Deepbios/src")
 dir()
 
 library(dplyr)
-library(maps)
-
-DBa <- read.csv("DB.csv")
 
 
-# Structure
-str(DBa)
-summary(DBa)
+DB <- read.csv("DB.csv")
+
 
 # Filter
+DB <- DB[!((DB$HaulVal == 'I') & !(DB$Survey == 'SP-NORTH') & !(DB$Survey == 'SP-PORC')),]
 DB <- DB[!(DB$HLNoAtLngt == -9),]
 DB <- DB[!(DB$HaulDur == 0),]
 DB <- DB[!(DB$HaulDur > 200),]
@@ -34,6 +31,10 @@ for (c in 1:nrow(DB)){
 }
 
 
+# Structure
+str(DB)
+summary(DB)
 
-write.table(DB,"DB.csv",
+
+write.table(DB,"DBa.csv",
             sep=",",dec=".",col.names=NA)
