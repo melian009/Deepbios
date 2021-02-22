@@ -1,11 +1,10 @@
 # Deepbios
-Evolving computational sustainability in rapidly changing exploited ecosystems
+Evolving computational sustainability in changing exploited ecosystems
 
 
 # Workflow
-
-![plot](Workflow.jpeg)
-
+##![plot](Workflow.jpeg)
+<img src="Workflow.jpeg" width="800px" height="auto" rotate="90">
 
 ## Link to the data
 (Sustainability of the Oceans)
