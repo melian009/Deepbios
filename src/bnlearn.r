@@ -1,9 +1,11 @@
 library(bnlearn)
 
-df = read.csv("DB_cleaned_discretized.csv")
+df = read.csv("data/large/DB_cleaned_discretized.csv")
 
 ## change data type to factor because bnlearn needs that
 df[, 1:20] <- lapply(df[,1:20], as.factor)
+
+df2 = df[, -1]
 
 # dim(df)
 # data(learning.test)
@@ -20,8 +22,9 @@ df[, 1:20] <- lapply(df[,1:20], as.factor)
 * Any arc whitelisted and blacklisted at the same time is assumed to be whitelisted, and is thus removed from the blacklist. In other words, the whitelist has precedence over the blacklist.
 """
 
-wl = read.csv("node_whitelist.csv")
-bl = read.csv("node_blacklist.csv")
+wl = read.csv("data/small/node_whitelist.csv")
+bl = read.csv("data/small/node_blacklist.csv")
+bl2 = read.csv("data/small/node_blacklist_noSurvey.csv")
 
 ## Structure learning with PC algorithm. Does not result in any reasonable network
 bn_pc = pc.stable(df, whitelist=wl, blacklist=bl)
@@ -48,7 +51,20 @@ plot(bn_sihitonpc)
 bn_hc = hc(df, whitelist=wl, blacklist=bl)
 plot(bn_hc)
 bn_hc_fitted = bn.fit(bn_hc, df)
-write.net("bn_hc.net", bn_hc_fitted)
+write.net("data/small/bn_hc.net", bn_hc_fitted)
+
+bn_hc2 = hc(df2, whitelist=wl, blacklist=bl2)
+plot(bn_hc2)
+bn_hc_fitted2 = bn.fit(bn_hc2, df2)
+write.net("data/small/bn_hc_noSurvey.net", bn_hc_fitted2)
+
+# To read again
+bn_hc_fitted2 = read.net("data/small/bn_hc_noSurvey.net")
+# To plot
+# Install with: install.packages("BiocManager"); BiocManager::install("Rgraphviz")
+library(Rgraphviz)
+graphviz.plot(bn_hc_fitted2)
+
 # # HC algorithm (score-based) with restars
 # bn_hc_restart = hc(df, whitelist=wl, blacklist=bl, restart=100)
 # plot(bn_hc_restart)
@@ -60,4 +76,10 @@ plot(bn_mmhc)
 # RSMAX2 algorithm (hybrid)
 bn_rsmax2 = rsmax2(df, whitelist=wl, blacklist=bl)
 plot(bn_rsmax2)
+# ARACNE (local discovery)
+bn_aracne = aracne(df, whitelist=wl, blacklist=bl, mi="mi")
+plot(bn_aracne)
+# Chow-Liu (local discovery)
+bn_chowLiu = chow.liu(df, whitelist=wl, blacklist=bl, mi="mi")
+plot(bn_chowLiu)
 
