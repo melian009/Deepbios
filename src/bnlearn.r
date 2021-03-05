@@ -5,7 +5,7 @@ df = read.csv("data/large/DB_cleaned_discretized.csv")
 ## change data type to factor because bnlearn needs that
 df[, 1:20] <- lapply(df[,1:20], as.factor)
 
-df2 = df[, -1]
+df2 = df[, -c(1,13)]
 
 # dim(df)
 # data(learning.test)
@@ -56,14 +56,16 @@ write.net("data/small/bn_hc.net", bn_hc_fitted)
 bn_hc2 = hc(df2, whitelist=wl, blacklist=bl2)
 plot(bn_hc2)
 bn_hc_fitted2 = bn.fit(bn_hc2, df2)
-write.net("data/small/bn_hc_noSurvey.net", bn_hc_fitted2)
+write.net("data/small/bn_hc_noDaySurvey.net", bn_hc_fitted2)
 
 # To read again
-bn_hc_fitted2 = read.net("data/small/bn_hc_noSurvey.net")
+bn_hc_fitted2 = read.net("data/small/bn_hc_noDaySurvey.net")
 # To plot
 # Install with: install.packages("BiocManager"); BiocManager::install("Rgraphviz")
 library(Rgraphviz)
+pdf("plots/network_structure.pdf")
 graphviz.plot(bn_hc_fitted2)
+dev.off()
 
 # # HC algorithm (score-based) with restars
 # bn_hc_restart = hc(df, whitelist=wl, blacklist=bl, restart=100)
