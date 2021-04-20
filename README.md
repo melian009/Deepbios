@@ -12,6 +12,8 @@ https://drive.switch.ch/index.php/s/XtYYz37O3pqs8s1
 
 (Fishing data)
 https://globalfishingwatch.org/data-download/
+https://globalfishingwatch.org/data-download/datasets/public-fishing-effort
+
 
 GOALS
 Which is the heterogeneity of the data? 
