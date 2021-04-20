@@ -46,12 +46,12 @@ end
 # merged_data = merge_haul_length()
 
 # merged data is in DB.csv
-db = CSV.read("DB.csv", DataFrame)
+db = CSV.read("DBa.csv", DataFrame)
 
 # describe(db)
-db = db[!, 8:end]
+db = db[!, 9:end]
 
-excluded_vars = [:Status, :SweepLngt, :GearExp, :DoorType, :StNo, :HaulNo, :SpecCode,   :SpecCodeType, :SpecVal, :CatIdentifier, :TotalNo, :NoMeas, :SubFactor, :SubWgt, :CatCatchWgt, :LngtCode, :HLNoAtLngt, :DateofCalculation, :Valid_Aphia, :Valid_name, :Rank, :Phylum, :ID, :TimeShot, :HaulVal, :StdSpecRecCode, :BycSpecRecCode, :DataType, :DateTime, :Sex, :AphiaID, :Date]
+excluded_vars = [:RecordType, :Status, :SweepLngt, :GearExp, :DoorType, :StNo, :HaulNo, :SpecCode,   :SpecCodeType, :SpecVal, :CatIdentifier, :TotalNo, :NoMeas, :SubFactor, :SubWgt, :CatCatchWgt, :LngtCode, :HLNoAtLngt, :DateofCalculation, :Valid_Aphia, :Valid_name, :Rank, :Phylum, :ID, :TimeShot, :HaulVal, :StdSpecRecCode, :BycSpecRecCode, :DataType, :DateTime, :Sex, :AphiaID, :Date]
 
 remained_vars = [i for i in names(db) if !in(Symbol(i), excluded_vars)]
 
@@ -75,17 +75,17 @@ j2 = findall(x-> x=="NA", db_final.LngtClass);
 j3 = union(j, j2);
 newrows = setdiff(1:size(db_final, 1), j3)
 
-db_final = db_final[newrows, :]
+db_final = db_final[newrows, :];
 
-# remove rows with HaulDur == 0
-db_final = db_final[db_final.HaulDur .!= 0, :]
+# # remove rows with HaulDur == 0
+# db_final = db_final[db_final.HaulDur .!= 0, :]
 
-# Convert LngtClass and Depth to integers
-db_final[!, :LngtClass2] = parse.(Int, db_final.LngtClass)
-newnames = names(db_final)
-splice!(newnames, findfirst(x -> x=="LngtClass", newnames))
-db_final = db_final[!, newnames]
-rename!(db_final, :LngtClass2 => :LngtClass)
+## Convert LngtClass and Depth to integers
+# db_final[!, :LngtClass2] = parse.(Int, db_final.LngtClass)
+# newnames = names(db_final)
+# splice!(newnames, findfirst(x -> x=="LngtClass", newnames))
+# db_final = db_final[!, newnames]
+# rename!(db_final, :LngtClass2 => :LngtClass)
 
 db_final[!, :Depth2] = parse.(Int, db_final.Depth)
 newnames = names(db_final)
@@ -93,9 +93,9 @@ splice!(newnames, findfirst(x -> x=="Depth", newnames))
 db_final = db_final[!, newnames]
 rename!(db_final, :Depth2 => :Depth)
 
-# remove Infs from CPUE_number_per_hour
-keeprows = findall(x-> x != Inf, db_final.CPUE_number_per_hour)
-db_final = db_final[keeprows, :]
+# # remove Infs from CPUE_number_per_hour
+# keeprows = findall(x-> x != Inf, db_final.CPUE_number_per_hour)
+# db_final = db_final[keeprows, :]
 
 # Save with JDF for compressed saving and fast loading
 JDF.save("DB_cleaned.jdf", db_final)
@@ -126,9 +126,35 @@ length_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(50), df.LngtClas
 depth_disc = LinearDiscretizer(binedges(DiscretizeUniformWidth(10), df.Depth))
 
 # discretized df
+dfd[!, :survey] = df.Survey #encode(surv_disc, df.Survey)
+dfd[!, :quarter] = df.Quarter
+dfd[!, :country] = df.Country # encode(country_disc, df.Country)
+dfd[!, :ship] = df.Ship # encode(ship_disc, df.Ship)
+dfd[!, :gear] = df.Gear # encode(gear_disc, df.Gear)
+dfd[!, :year] = df.Year # encode(year_disc, df.Year)
+dfd[!, :name] = df.Scientificname  # encode(name_disc, df.Scientificname)
+dfd[!, :genus] = df.Genus  # encode(genus_disc, df.Genus)
+dfd[!, :family] = df.Family  # encode(family_disc, df.Family)
+dfd[!, :order] = df.Order  # encode(order_disc, df.Order);
+dfd[!, :class] = df.Class  # encode(class_disc, df.Class);
+dfd[!, :month] = df.Month;
+dfd[!, :day] = df.Day;
+dfd[!, :hauldur] = encode(hauldur_disc, df.HaulDur);
+dfd[!, :daynight] = df. DayNight  # encode(daynight_disc, df.DayNight);
+dfd[!, :lat] = encode(lat_disc, df.ShootLat);
+dfd[!, :lon] = encode(lon_disc, df.ShootLong);
+dfd[!, :count] = encode(count_disc, df.CPUE_number_per_hour);
+dfd[!, :length] = encode(length_disc, df.LngtClass);
+dfd[!, :depth] = encode(depth_disc, df.Depth);
+
+CSV.write("DB_cleaned_discretized.csv", dfd)
+
+
+# Discretie all
+# discretized df
 dfd[!, :survey] = encode(surv_disc, df.Survey)
 dfd[!, :quarter] = df.Quarter
-dfd[!, :coutry] = encode(country_disc, df.Country)
+dfd[!, :country] = encode(country_disc, df.Country)
 dfd[!, :ship] = encode(ship_disc, df.Ship)
 dfd[!, :gear] = encode(gear_disc, df.Gear)
 dfd[!, :year] = encode(year_disc, df.Year)
@@ -147,6 +173,12 @@ dfd[!, :count] = encode(count_disc, df.CPUE_number_per_hour);
 dfd[!, :length] = encode(length_disc, df.LngtClass);
 dfd[!, :depth] = encode(depth_disc, df.Depth);
 
-CSV.write("DB_cleaned_discretized.csv", dfd)
+CSV.write("DB_cleaned_discretized_all.csv", dfd)
 
-# NB where is presence/absence data?
+
+# Structure learning using greedy hill climbing
+using BayesNets
+df = CSV.read("large/DB_cleaned_discretized_all.csv", DataFrame)
+
+parameters = GreedyHillClimbing(ScoreComponentCache(df), max_n_parents=15, prior=UniformPrior())
+bn = fit(DiscreteBayesNet, df, parameters)
