@@ -85,3 +85,48 @@ plot(bn_aracne)
 bn_chowLiu = chow.liu(df, whitelist=wl, blacklist=bl, mi="mi")
 plot(bn_chowLiu)
 
+##-----------------------------------------------
+## Species interaction networks NB: none of the networks have any edges
+##-----------------------------------------------
+
+# See preprocessing.jl for producing a CSV for a specific country.
+df = read.csv("data/large/DEN_species.csv")
+
+## change data type to factor because bnlearn needs that
+df[, 1:ncol(df)] <- lapply(df[,1:ncol(df)], as.factor)
+
+
+# HC algorithm (score-based) with restars
+bn_hc_restart = hc(df, restart=100)
+plot(bn_hc_restart)
+# bn_hc_fitted_restart = bn.fit(bn_hc_restart, df)
+# write.net("DEN_bn_hc_restart.net", bn_hc_fitted_restart)
+
+# To plot
+# Install with: install.packages("BiocManager"); BiocManager::install("Rgraphviz")
+library(Rgraphviz)
+pdf("plots/network_structure_DEN.pdf")
+graphviz.plot(bn_hc_restart)
+dev.off()
+
+## Structure learning with PC algorithm. 
+bn_pc = pc.stable(df)
+plot(bn_pc)
+# GS algorithm
+bn_gs = gs(df)
+plot(bn_gs)
+# IAMB algorithm
+bn_iamb = iamb(df)
+plot(bn_iamb)
+# inter-IAMB algorithm
+bn_interiamb = inter.iamb(df)
+plot(bn_interiamb)
+# IAMB-FDR algorithm
+bn_iambfdr = iamb.fdr(df)
+plot(bn_iambfdr)
+# MMPC algorithm
+bn_mmpc = mmpc(df)
+plot(bn_mmpc)
+# SI.HITON-PC algorithm
+bn_sihitonpc = si.hiton.pc(df)
+plot(bn_sihitonpc)
