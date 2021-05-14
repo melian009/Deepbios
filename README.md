@@ -10,6 +10,8 @@ https://drive.switch.ch/index.php/s/XtYYz37O3pqs8s1
 
 (Fishing data)
 https://globalfishingwatch.org/data-download/
+https://globalfishingwatch.org/data-download/datasets/public-fishing-effort
+
 
 ### GOAL
 Implementation of eco-evolutionary diversification-inspired solutions to perform computational sustainability causal infernce and discovery based on rapidly diversifying traits and interactions. The exploitation of emerging interactions, strategies and traits will allow us to create novel discovery solutions for natural ecosystems facing sustainability challenges like overexploitation of the ocean, where harvesting renewable resources are beyond the diminishing returns for many species and ecosystem resources.
