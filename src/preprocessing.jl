@@ -222,20 +222,53 @@ function country_species(df, country)
 end
 
 df = DataFrame(JDF.load("data/large/DB_cleaned.jdf"))
-speciesdf = country_species(df, "DEN")
 
-# Discretize counts
-colnames = names(speciesdf)
-dfd = DataFrame()
-for col in 1:size(speciesdf, 2)
-  cc = LinearDiscretizer(binedges(DiscretizeUniformWidth(100), speciesdf[!, col]))
-  dfd[!, colnames[col]] = encode(cc, speciesdf[!, col]);
+countries = levels(df.Country)
+
+outfile = "data/large/interacting_pairs_per_country.csv"
+ff = open(outfile, "w")
+header = join(["child", "parent", "country"], ",")
+println(header, ff)
+close(ff)
+
+open(outfile, "a+") do ff
+  for country in countries
+    speciesdf = country_species(df, country)
+
+    # Discretize counts
+    colnames = names(speciesdf)
+    dfd = DataFrame()
+    for col in 1:size(speciesdf, 2)
+      cc = LinearDiscretizer(binedges(DiscretizeUniformWidth(100), speciesdf[!, col]))
+      dfd[!, colnames[col]] = encode(cc, speciesdf[!, col]);
+    end
+
+    # CSV.write("data/large/DEN_species.csv", dfd)
+
+    # Structure learning using greedy hill climbing
+    parameters = GreedyHillClimbing(ScoreComponentCache(dfd), max_n_parents=7, prior=UniformPrior())
+    bn = fit(DiscreteBayesNet, dfd, parameters)
+
+    # draw(PNG("plots/species_Den.png"), gplot(bn.dag))
+
+    have_parents = Symbol[]
+    for (k, v) in bn.name_to_index
+      cpd = bn.cpds[v]
+      if length(cpd.parents) > 0
+        push!(have_parents, k)
+      end
+    end
+
+    have_parents_ids = [bn.name_to_index[i] for i in have_parents]
+
+    for name in have_parents
+      id = bn.name_to_index[name]
+      prnts = String.(bn.cpds[id].parents)
+      for prnt in prnts
+        entry = join([String(name), prnt, country], ",")
+        println(ff, entry)
+      end
+      # println(name, ": ", join(prnts, ", "))
+    end
+  end
 end
-
-CSV.write("data/large/DEN_species.csv", dfd)
-
-# Structure learning using greedy hill climbing
-parameters = GreedyHillClimbing(ScoreComponentCache(dfd), max_n_parents=15, prior=UniformPrior())
-bn = fit(DiscreteBayesNet, dfd, parameters)
-
-draw(PNG("plots/species_Den.png"), gplot(bn.dag))
