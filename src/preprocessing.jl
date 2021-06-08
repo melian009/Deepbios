@@ -225,7 +225,7 @@ df = DataFrame(JDF.load("data/large/DB_cleaned.jdf"))
 
 countries = levels(df.Country)
 
-outfile = "data/large/interacting_pairs_per_country.csv"
+outfile = "data/small/interacting_pairs_per_country.csv"
 ff = open(outfile, "w")
 header = join(["child", "parent", "country"], ",")
 println(header, ff)
