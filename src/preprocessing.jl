@@ -45,8 +45,8 @@ end
 
 # merged_data = merge_haul_length()
 
-# merged data is in DB.csv
-db = CSV.read("DBa.csv", DataFrame)
+# merged data is in DBa.csv
+db = CSV.read("data/large/DBa.csv", DataFrame)
 
 # describe(db)
 db = db[!, 9:end]
@@ -98,9 +98,9 @@ rename!(db_final, :Depth2 => :Depth)
 # db_final = db_final[keeprows, :]
 
 # Save with JDF for compressed saving and fast loading
-JDF.save("DB_cleaned.jdf", db_final)
+JDF.save("data/large/DB_cleaned.jdf", db_final)
 #Load it with the command below:
-df = DataFrame(JDF.load("DB_cleaned.jdf"))
+df = DataFrame(JDF.load("data/large/DB_cleaned.jdf"))
 
 ## TODO: Descretize the data
 using Discretizers
@@ -182,3 +182,93 @@ df = CSV.read("large/DB_cleaned_discretized_all.csv", DataFrame)
 
 parameters = GreedyHillClimbing(ScoreComponentCache(df), max_n_parents=15, prior=UniformPrior())
 bn = fit(DiscreteBayesNet, df, parameters)
+
+
+##-------------------------------------------
+## Choose species in a specific region
+##-------------------------------------------
+using Statistics: mean
+using BayesNets
+using Discretizers
+using GraphPlot
+using Compose, Cairo
+
+"""
+Create a table where columns are species and rows are unique sampling events (same date). Values are species abundance. This is called converting from long format to wide format.
+"""
+function country_species(df, country)
+  df2 = df[df.Country .== country, :]
+  # First, combine all length classes
+  df2[!, :Date] = [join([a,b,c], "-") for (a,b,c) in zip(df2.Day, df2.Month, df2.Year)];
+  grouped = groupby(df2, [:Scientificname, :Date])
+  cc = combine(grouped, :CPUE_number_per_hour => sum)
+  # Now unstack
+  df2_wide = unstack(cc, :Scientificname, :CPUE_number_per_hour_sum, allowduplicates=false)
+  # Replace missings with zeros
+  df2_wide = coalesce.(df2_wide, 0)
+  # Remove species that are rare
+  colsums = [count(x -> x>0, df2_wide[:, i]) for i in 2:size(df2_wide, 2)]
+  # using Plots
+  # histogram(colsums)
+  common_ids = findall(x-> x>100, colsums)
+
+  outdf = df2_wide[:, common_ids .+ 1]
+
+  #conver to Integer
+  for col in 1:size(outdf,2)
+    outdf[!, col] = round.(Int64, outdf[:, col])
+  end
+  return outdf
+end
+
+df = DataFrame(JDF.load("data/large/DB_cleaned.jdf"))
+
+countries = levels(df.Country)
+
+outfile = "data/small/interacting_pairs_per_country.csv"
+ff = open(outfile, "w")
+header = join(["child", "parent", "country"], ",")
+println(header, ff)
+close(ff)
+
+open(outfile, "a+") do ff
+  for country in countries
+    speciesdf = country_species(df, country)
+
+    # Discretize counts
+    colnames = names(speciesdf)
+    dfd = DataFrame()
+    for col in 1:size(speciesdf, 2)
+      cc = LinearDiscretizer(binedges(DiscretizeUniformWidth(100), speciesdf[!, col]))
+      dfd[!, colnames[col]] = encode(cc, speciesdf[!, col]);
+    end
+
+    # CSV.write("data/large/DEN_species.csv", dfd)
+
+    # Structure learning using greedy hill climbing
+    parameters = GreedyHillClimbing(ScoreComponentCache(dfd), max_n_parents=7, prior=UniformPrior())
+    bn = fit(DiscreteBayesNet, dfd, parameters)
+
+    # draw(PNG("plots/species_Den.png"), gplot(bn.dag))
+
+    have_parents = Symbol[]
+    for (k, v) in bn.name_to_index
+      cpd = bn.cpds[v]
+      if length(cpd.parents) > 0
+        push!(have_parents, k)
+      end
+    end
+
+    have_parents_ids = [bn.name_to_index[i] for i in have_parents]
+
+    for name in have_parents
+      id = bn.name_to_index[name]
+      prnts = String.(bn.cpds[id].parents)
+      for prnt in prnts
+        entry = join([String(name), prnt, country], ",")
+        println(ff, entry)
+      end
+      # println(name, ": ", join(prnts, ", "))
+    end
+  end
+end
