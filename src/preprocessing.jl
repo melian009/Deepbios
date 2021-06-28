@@ -196,11 +196,12 @@ using Compose, Cairo
 """
 Create a table where columns are species and rows are unique sampling events (same date). Values are species abundance. This is called converting from long format to wide format.
 """
-function country_species(df, country)
-  df2 = df[df.Country .== country, :]
+function survey_species(df, survey)
+  df2 = df[df.Survey .== survey, :]
   # First, combine all length classes
+  # TODO: also combine smaller sampling regions. Need data from Paco
   df2[!, :Date] = [join([a,b,c], "-") for (a,b,c) in zip(df2.Day, df2.Month, df2.Year)];
-  grouped = groupby(df2, [:Scientificname, :Date])
+  grouped = DataFrames.groupby(df2, [:Scientificname, :Date])
   cc = combine(grouped, :CPUE_number_per_hour => sum)
   # Now unstack
   df2_wide = unstack(cc, :Scientificname, :CPUE_number_per_hour_sum, allowduplicates=false)
@@ -223,17 +224,18 @@ end
 
 df = DataFrame(JDF.load("data/large/DB_cleaned.jdf"))
 
-countries = levels(df.Country)
+surveys = levels(df.Survey)
+surveys = surveys[8] # limiting to NS_IBTS as it is the oldest time-series.
 
-outfile = "data/small/interacting_pairs_per_country.csv"
+outfile = "data/small/interacting_pairs_per_survey.csv"
 ff = open(outfile, "w")
-header = join(["child", "parent", "country"], ",")
+header = join(["child", "parent", "survey"], ",")
 println(header, ff)
 close(ff)
 
 open(outfile, "a+") do ff
-  for country in countries
-    speciesdf = country_species(df, country)
+  for survey in surveys
+    speciesdf = survey_species(df, survey)
 
     # Discretize counts
     colnames = names(speciesdf)
@@ -243,13 +245,13 @@ open(outfile, "a+") do ff
       dfd[!, colnames[col]] = encode(cc, speciesdf[!, col]);
     end
 
-    # CSV.write("data/large/DEN_species.csv", dfd)
+    # CSV.write("data/large/NS_IBTS_species.csv", dfd)
 
     # Structure learning using greedy hill climbing
     parameters = GreedyHillClimbing(ScoreComponentCache(dfd), max_n_parents=7, prior=UniformPrior())
     bn = fit(DiscreteBayesNet, dfd, parameters)
 
-    # draw(PNG("plots/species_Den.png"), gplot(bn.dag))
+    # draw(PNG("plots/NS_IBTS_species.png"), gplot(bn.dag))
 
     have_parents = Symbol[]
     for (k, v) in bn.name_to_index
@@ -265,7 +267,7 @@ open(outfile, "a+") do ff
       id = bn.name_to_index[name]
       prnts = String.(bn.cpds[id].parents)
       for prnt in prnts
-        entry = join([String(name), prnt, country], ",")
+        entry = join([String(name), prnt, survey], ",")
         println(ff, entry)
       end
       # println(name, ": ", join(prnts, ", "))
