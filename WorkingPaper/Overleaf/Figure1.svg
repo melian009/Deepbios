@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   xml:space="preserve"
+   width="381.44363"
+   height="438.74869"
+   viewBox="0 0 381.44363 438.74869"
+   sodipodi:docname="Figure1.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:export-filename="/home/melian/Documents/Research/projects/Deepbios/WorkingPaper/Overleaf/Figure1.png"
+   inkscape:export-xdpi="1287.3795"
+   inkscape:export-ydpi="1287.3795"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><linearGradient
+   inkscape:collect="always"
+   id="linearGradient920"><stop
+     style="stop-color:#000000;stop-opacity:1;"
+     offset="0"
+     id="stop916" /><stop
+     style="stop-color:#000000;stop-opacity:0;"
+     offset="1"
+     id="stop918" /></linearGradient><linearGradient
+   id="linearGradient902"
+   osb:paint="solid"><stop
+     style="stop-color:#f6d6fb;stop-opacity:1;"
+     offset="0"
+     id="stop900" /></linearGradient><clipPath
+   clipPathUnits="userSpaceOnUse"
+   id="clipPath24"><path
+     d="M 0,0 H 287 V 330 H 0 Z"
+     id="path22"
+     inkscape:connector-curvature="0" /></clipPath><clipPath
+   clipPathUnits="userSpaceOnUse"
+   id="clipPath46"><path
+     d="M 0,0 H 287 V 330 H 0 Z"
+     id="path44"
+     inkscape:connector-curvature="0" /></clipPath><radialGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient902"
+   id="radialGradient914"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1,0,0,0.21170687,-221.7298,30.034279)"
+   cx="140.47859"
+   cy="33.812459"
+   fx="140.47859"
+   fy="33.812459"
+   r="56.159219" /><radialGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient920"
+   id="radialGradient922"
+   cx="140.47859"
+   cy="33.812459"
+   fx="140.47859"
+   fy="33.812459"
+   r="56.159219"
+   gradientTransform="matrix(1,0,0,0.21170687,-221.7298,30.034279)"
+   gradientUnits="userSpaceOnUse" /><radialGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient902"
+   id="radialGradient914-3"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.59051022,0,0,0.56037169,-40.242488,35.991152)"
+   cx="140.47859"
+   cy="33.812458"
+   fx="140.47859"
+   fy="33.812458"
+   r="56.159218" /><radialGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient920"
+   id="radialGradient922-7"
+   cx="140.47859"
+   cy="33.812458"
+   fx="140.47859"
+   fy="33.812458"
+   r="56.159218"
+   gradientTransform="matrix(0.59051022,0,0,0.56037169,-40.242488,35.991152)"
+   gradientUnits="userSpaceOnUse" /><radialGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient902"
+   id="radialGradient914-3-6"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.56241658,0,0,0.56043574,165.57631,34.034736)"
+   cx="140.47859"
+   cy="33.812458"
+   fx="140.47859"
+   fy="33.812458"
+   r="56.159218" /><radialGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient920"
+   id="radialGradient922-7-9"
+   cx="140.47859"
+   cy="33.812458"
+   fx="140.47859"
+   fy="33.812458"
+   r="56.159218"
+   gradientTransform="matrix(0.56241658,0,0,0.56043574,165.57631,34.034736)"
+   gradientUnits="userSpaceOnUse" /><radialGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient902"
+   id="radialGradient914-3-0"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.1116557,0,0,2.3999454,-10.278608,98.248276)"
+   cx="140.47859"
+   cy="33.812458"
+   fx="140.47859"
+   fy="33.812458"
+   r="56.159218" /><radialGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient920"
+   id="radialGradient922-7-3"
+   cx="140.47859"
+   cy="33.812458"
+   fx="140.47859"
+   fy="33.812458"
+   r="56.159218"
+   gradientTransform="matrix(1.1116557,0,0,2.3999454,-10.278608,98.248276)"
+   gradientUnits="userSpaceOnUse" /><radialGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient902"
+   id="radialGradient914-3-3"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(2.3447277,0,0,0.32954426,-184.89685,61.362354)"
+   cx="140.47859"
+   cy="33.812458"
+   fx="140.47859"
+   fy="33.812458"
+   r="56.159218" /><radialGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient920"
+   id="radialGradient922-7-7"
+   cx="140.47859"
+   cy="33.812458"
+   fx="140.47859"
+   fy="33.812458"
+   r="56.159218"
+   gradientTransform="matrix(2.3447277,0,0,0.32954426,-184.89685,61.362354)"
+   gradientUnits="userSpaceOnUse" />
+
+
+
+
+
+
+
+</defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2483"
+     inkscape:window-height="1528"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="2.1515734"
+     inkscape:cx="-10.904265"
+     inkscape:cy="219.4709"
+     inkscape:window-x="77"
+     inkscape:window-y="35"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10" /><g
+     id="g10"
+     inkscape:groupmode="layer"
+     inkscape:label="Fig0"
+     transform="matrix(1.3333333,0,0,1.3333333,0,1.3635384e-5)"><rect
+   style="opacity:1;fill:#faecfb;fill-opacity:0.92870202;stroke:#000000;stroke-width:0.13460562;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+   id="rect1016"
+   width="279.50323"
+   height="102.42354"
+   x="3.9698718"
+   y="14.670241" /><rect
+   style="opacity:1;fill:url(#radialGradient914-3-6);fill-opacity:1;stroke:url(#radialGradient922-7-9);stroke-width:0.09151365;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+   id="rect865-5-7"
+   width="63.127571"
+   height="62.748726"
+   x="213.02005"
+   y="21.610104" /><text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:10.59822464px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26495564px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   x="271.88452"
+   y="28.443592"
+   id="text994"
+   transform="scale(0.86139648,1.1609056)"><tspan
+     sodipodi:role="line"
+     id="tspan992"
+     x="271.88452"
+     y="28.443592"
+     style="stroke-width:0.26495564px">WHO</tspan></text>
+
+
+
+
+
+<rect
+   style="opacity:1;fill:url(#radialGradient914-3-0);fill-opacity:1;stroke:url(#radialGradient922-7-3);stroke-width:0.26624379;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+   id="rect865-5-6"
+   width="124.77605"
+   height="268.70792"
+   x="83.497246"
+   y="45.042416" /><text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:12.55840683px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.31396016px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   x="165.84128"
+   y="89.861465"
+   id="text1134"
+   transform="scale(0.78956735,1.2665164)"><tspan
+     sodipodi:role="line"
+     id="tspan1132"
+     x="165.84128"
+     y="89.861465"
+     style="stroke-width:0.31396016px">HOW</tspan></text>
+
+
+
+
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11.10275269px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.27756882px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   x="119.72636"
+   y="99.211914"
+   id="text1099"
+   transform="scale(0.74655269,1.3394902)"><tspan
+     sodipodi:role="line"
+     id="tspan1097"
+     x="119.72636"
+     y="99.211914"
+     style="stroke-width:0.27756882px">Eco-evolutionary dynamics</tspan></text>
+
+
+
+
+
+<g
+   id="g1202"
+   transform="translate(226.57838,-6.9716424)"><rect
+   y="25.340816"
+   x="-137.37292"
+   height="23.703585"
+   width="112.24344"
+   id="rect865"
+   style="opacity:1;fill:url(#radialGradient914);fill-opacity:1;stroke:url(#radialGradient922);stroke-width:0.075;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" /><text
+   transform="scale(0.95723111,1.0446798)"
+   id="text910"
+   y="39.534706"
+   x="-125.22183"
+   style="font-style:normal;font-weight:normal;font-size:10.18802929px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25470072px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   xml:space="preserve"><tspan
+     style="stroke-width:0.25470072px"
+     y="39.534706"
+     x="-125.22183"
+     id="tspan908"
+     sodipodi:role="line">SUSTAINABILITY</tspan></text>
+
+
+
+
+</g>
+
+
+
+
+
+
+
+
+
+<g
+   id="g14"
+   transform="matrix(0.57637544,0,0,0.47479485,61.741615,143.65245)"><path
+     inkscape:connector-curvature="0"
+     id="path16"
+     style="fill:#fa3d0d;fill-opacity:1;fill-rule:nonzero;stroke:#f50cf8;stroke-width:0.376645;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 246.199,104.477 c 0,52.902 -45.058,95.789 -100.637,95.789 -55.578,0 -100.632,-42.887 -100.632,-95.789 0,-52.899 45.054,-95.786 100.632,-95.786 55.579,0 100.637,42.887 100.637,95.786 z" /></g><g
+   id="g18"
+   transform="matrix(0.70626956,0,0,0.55485547,53.815345,136.56882)"><g
+     id="g20" /><g
+     id="g32"><g
+       style="opacity:0.6"
+       id="g30"
+       clip-path="url(#clipPath24)"><g
+         id="g28"><path
+           inkscape:connector-curvature="0"
+           id="path26"
+           style="fill:#86ccef;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 277.578,224.773 c 0,52.899 -45.055,95.786 -100.633,95.786 -55.582,0 -100.636,-42.887 -100.636,-95.786 0,-52.902 45.054,-95.789 100.636,-95.789 55.578,0 100.633,42.887 100.633,95.789 z" /></g></g></g></g><text
+   id="text38"
+   style="font-variant:normal;font-weight:normal;font-size:7.69336224px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.3903456"
+   transform="scale(0.82213531,1.2163448)"
+   x="168.29382"
+   y="146.21834"><tspan
+     id="tspan34"
+     sodipodi:role="line"
+     y="146.21834"
+     x="168.29382 174.07922 178.7491 182.84196"
+     style="stroke-width:0.3903456">DATA</tspan><tspan
+     id="tspan36"
+     sodipodi:role="line"
+     y="155.83504"
+     x="131.71187 137.63576 142.3441 145.35991 150.06824 152.50703 157.54619 162.41609 167.11673 173.40221 175.53326 180.26469 185.14227 190.01987 194.75128 197.19008 203.14474 206.30672 211.01506 215.89265 220.76254 224.76309"
+     style="stroke-width:0.3903456">Data Knowledge Graphs </tspan></text>
+
+
+<g
+   id="g40"
+   transform="matrix(0.70107379,0,0,0.57851029,37.083267,130.45549)"><g
+     id="g42" /><g
+     id="g54"><g
+       style="opacity:0.6"
+       id="g52"
+       clip-path="url(#clipPath46)"><g
+         id="g50"><path
+           inkscape:connector-curvature="0"
+           id="path48"
+           style="fill:#bfe85e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 209.773,223.031 c 0,52.899 -45.054,95.785 -100.632,95.785 -55.582,0 -100.637,-42.886 -100.637,-95.785 0,-52.902 45.055,-95.789 100.637,-95.789 55.578,0 100.632,42.887 100.632,95.789 z" /></g></g></g></g><text
+   id="text60"
+   style="font-variant:normal;font-weight:normal;font-size:5.78835726px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.3773433"
+   transform="scale(0.79475018,1.258257)"
+   x="117.42643"
+   y="199.85184"><tspan
+     id="tspan56"
+     sodipodi:role="line"
+     y="199.85184"
+     x="117.42643 121.46671 125.42594 129.65721 133.43701 137.39626 140.62038 142.32214 145.85304 149.38394"
+     style="stroke-width:0.3773433">CAUSALITY </tspan><tspan
+     id="tspan58"
+     sodipodi:role="line"
+     y="207.0873"
+     x="93.572609 97.612885 101.15536 104.81939 107.82933 111.3718 112.97518 114.81009 118.60146 122.2655 125.80219 130.53127 132.13464 135.69447 139.3643 143.03412 146.59395 148.42886 152.90906 155.28807 158.83054 162.50037 166.1644"
+     style="stroke-width:0.3773433">Causal Knowledge Graphs</tspan></text>
+
+
+<text
+   id="text66"
+   style="font-variant:normal;font-weight:normal;font-size:6.91964483px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.36799833"
+   transform="scale(0.77506805,1.2902093)"
+   x="160.52756"
+   y="173.4525"><tspan
+     id="tspan62"
+     sodipodi:role="line"
+     y="173.4525"
+     x="160.52756 165.35747 169.58537 176.3251 180.71217 185.0923 187.80481 192.03963 194.75212 196.66887 200.89677 205.27692 209.51173 211.42847"
+     style="stroke-width:0.36799833">Computational </tspan><tspan
+     id="tspan64"
+     sodipodi:role="line"
+     y="182.10205"
+     x="160.52756 164.91461 169.29475 172.89296 175.60547 179.84029 181.75703 186.13716 190.37199 194.75905 196.67578 198.59253 200.50928 203.22177"
+     style="stroke-width:0.36799833">Sustainability</tspan></text>
+
+
+<text
+   id="text72"
+   style="font-variant:normal;font-weight:normal;font-size:5.70525122px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.37192562"
+   transform="scale(0.78333961,1.2765855)"
+   x="212.2845"
+   y="197.12923"><tspan
+     id="tspan68"
+     sodipodi:role="line"
+     y="197.12923"
+     x="212.2845 216.67755 218.35489 221.97202 225.95428 230.34163 234.24402 237.84402 241.43834 244.91855"
+     style="stroke-width:0.37192562">DISCOVERY </tspan><tspan
+     id="tspan70"
+     sodipodi:role="line"
+     y="204.26079"
+     x="188.77316 193.16621 194.74657 197.71329 200.84547 204.33139 207.70319 211.21191 213.55678 216.92857 218.73715 222.47409 226.08551 229.57141 231.15178 235.81296 239.32169 242.93883 246.55595 250.06468 251.87325 256.28909 258.63397 262.12558 265.74271 269.35413 272.32086"
+     style="stroke-width:0.37192562">Discovery Knolwedge Graphs </tspan></text>
+
+
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:7.84196806px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#007a00;fill-opacity:1;stroke:none;stroke-width:0.1960492px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+   x="77.064804"
+   y="225.82085"
+   id="text1228"
+   transform="scale(0.82815693,1.2075006)"><tspan
+     sodipodi:role="line"
+     id="tspan1226"
+     x="77.064804"
+     y="225.82085"
+     style="stroke-width:0.1960492px;fill:#007a00;fill-opacity:1;">Causal </tspan><tspan
+     sodipodi:role="line"
+     x="77.064804"
+     y="235.62331"
+     style="stroke-width:0.1960492px;fill:#007a00;fill-opacity:1;"
+     id="tspan1234">Bayesian</tspan><tspan
+     sodipodi:role="line"
+     x="77.064804"
+     y="245.42577"
+     style="stroke-width:0.1960492px;fill:#007a00;fill-opacity:1;"
+     id="tspan1236">networks</tspan></text>
+
+
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:12.456707px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0083d0;fill-opacity:1;stroke:none;stroke-width:0.31141767px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+   x="190.45673"
+   y="303.69794"
+   id="text1232"
+   transform="scale(1.0529907,0.949676)"><tspan
+     sodipodi:role="line"
+     id="tspan1230"
+     x="190.45673"
+     y="303.69794"
+     style="stroke-width:0.31141767px;fill:#0083d0;fill-opacity:1;">KINN</tspan></text>
+
+
+
+
+<rect
+   style="opacity:1;fill:url(#radialGradient914-3-3);fill-opacity:1;stroke:url(#radialGradient922-7-7);stroke-width:0.14328369;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+   id="rect865-5-62"
+   width="263.18024"
+   height="36.897156"
+   x="12.897258"
+   y="54.056503" /><g
+   style=""
+   id="g1224"
+   transform="translate(3,-3)"><rect
+   y="23.567957"
+   x="9.5711536"
+   height="62.741558"
+   width="66.280907"
+   id="rect865-5"
+   style="opacity:1;fill:url(#radialGradient914-3);fill-opacity:1;stroke:url(#radialGradient922-7);stroke-width:0.09376603;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" /><text
+   transform="scale(0.89227581,1.1207297)"
+   id="text990"
+   y="31.630909"
+   x="33.700275"
+   style="font-style:normal;font-weight:normal;font-size:10.55547619px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2638869px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   xml:space="preserve"><tspan
+     style="stroke-width:0.2638869px"
+     y="31.630909"
+     x="33.700275"
+     id="tspan988"
+     sodipodi:role="line">WHY</tspan></text>
+
+
+
+
+<text
+   transform="scale(0.65522389,1.5261959)"
+   id="text998"
+   y="45.92733"
+   x="22.783987"
+   style="font-style:normal;font-weight:normal;font-size:6.95414209px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17385356px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   xml:space="preserve"><tspan
+     style="stroke-width:0.17385356px"
+     y="45.92733"
+     x="22.783987"
+     id="tspan996"
+     sodipodi:role="line">Species maintenance</tspan><tspan
+     id="tspan1000"
+     style="stroke-width:0.17385356px"
+     y="54.620007"
+     x="22.783987"
+     sodipodi:role="line">in exploited ecosystems </tspan></text>
+
+
+
+
+</g><text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:7.84389353px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19609733px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   x="131.02843"
+   y="56.312809"
+   id="text1138"
+   transform="scale(0.71896758,1.3908833)"><tspan
+     sodipodi:role="line"
+     id="tspan1136"
+     x="131.02843"
+     y="56.312809"
+     style="stroke-width:0.19609733px">Exploitation-induced trait evolution</tspan></text>
+
+
+
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:7.96480036px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19912001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   x="287.00229"
+   y="58.958195"
+   id="text1014"
+   transform="scale(0.74910154,1.3349325)"><tspan
+     sodipodi:role="line"
+     id="tspan1012"
+     x="287.00229"
+     y="58.958195"
+     style="stroke-width:0.19912001px">Federated networks</tspan></text>
+
+
+
+<rect
+   style="opacity:1;fill:#f0cccb;fill-opacity:1;stroke:#000000;stroke-width:0.06147533;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+   id="rect902"
+   width="101.44933"
+   height="37.312847"
+   x="95.854645"
+   y="262.47427" /><text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:6.79477596px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16986938px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   x="136.61386"
+   y="233.83528"
+   id="text892"
+   transform="scale(0.8568418,1.1670766)"><tspan
+     sodipodi:role="line"
+     id="tspan890"
+     x="136.61386"
+     y="233.83528"
+     style="stroke-width:0.16986938px">Biotic interactions</tspan></text>
+
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:7.36366081px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18409152px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   x="147.78366"
+   y="238.14186"
+   id="text896"
+   transform="scale(0.8416765,1.1881049)"><tspan
+     sodipodi:role="line"
+     id="tspan894"
+     x="147.78366"
+     y="238.14186"
+     style="stroke-width:0.18409152px">Connectivity</tspan></text>
+
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:8.88083172px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22202078px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   x="130.17659"
+   y="219.12866"
+   id="text900"
+   transform="scale(0.74065499,1.3501563)"><tspan
+     sodipodi:role="line"
+     id="tspan898"
+     x="130.17659"
+     y="219.12866"
+     style="stroke-width:0.22202078px">Fishery-induced trait evolution</tspan></text>
+
+</g></svg>

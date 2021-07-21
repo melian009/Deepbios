@@ -1,8 +1,23 @@
 # Deepbios
-Evolving computational sustainability in changing exploited ecosystems
+Sustainability discovery in eco-evolutionary diversification-inspired federated networks
+Sustainability discovery in eco-evolutionary diversification-inspired exploited ecosystems
 
 ### Workflow (open, decentralized, reproducible)
 ![plot](Workflow.jpeg)
+
+
+### Simulation protocol
+
+1. Julia Evodynamics implementation (path)
+2. Test data: North sea (ID)
+3. Expoitation function (applied to fishing: check the global fishing watch)
+https://globalfishingwatch.org/map/?latitude=19&longitude=26&zoom=1.5&start=2021-04-16T00%3A00%3A00.000Z&end=2021-07-16T00%3A00%3A00.000Z
+4. Allometric relationship age-Body mass (M) or Body mass (M)-length(L): commercial species with age-length data
+5. Initial distributions age
+6. Initial conditions: trait change range, migration range and randomly selected pair of species
+7. Min distance to the empirical data (age distribution per site)
+8. OUTPUT : Distribution of interaction strength; Migration distribution; trait evolution distribution
+
 
 ### Link to the data
 (Sustainability of the Oceans)
