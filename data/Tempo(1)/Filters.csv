@@ -1,0 +1,17 @@
+rank,class,,Survey,,The set of common fields by which we can connect the records in the files is:
+Species,Myxini,,BITS,,Survey
+Subspecies,Petromyzonti,,NS-IBTS,,Year
+,Elasmobranchii,,SP-PORC,,Quarter
+,Holocephali,,SCOWCGFS,,Country
+,Actinopterygii,,ROCKALL,,Gear
+,,,SCOROC,,HaulNo
+,,,DWS,,
+,,,IE-IGFS,,
+,,,IE-IAMS,,
+,,,NIGFS,,
+,,,SP-NORTH,,
+,,,FR-CGFS,,
+,,,EVHOE,,
+,,,SP-ARSA,,
+,,,PT-IBTS,,
+,,,SNS,,

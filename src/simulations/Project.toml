@@ -1,0 +1,3 @@
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+EvoDynamics = "c8768967-421d-4a02-8523-37736f3dbe06"
