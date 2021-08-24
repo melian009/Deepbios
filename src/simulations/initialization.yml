@@ -6521,7 +6521,7 @@ species:
       - 0
       - 0
       - 1
-    id: "Scophthalmus rhombus"
+    name: "Scophthalmus rhombus"
     recombination: 1
     number of phenotypes: 2
     environmental noise: 0.01
@@ -12808,7 +12808,7 @@ species:
       - 0
       - 0
       - 1
-    id: "Hippoglossoides platessoides"
+    name: "Hippoglossoides platessoides"
     recombination: 1
     number of phenotypes: 2
     environmental noise: 0.01
@@ -19095,7 +19095,7 @@ species:
       - 0
       - 0
       - 1
-    id: "Glyptocephalus cynoglossus"
+    name: "Glyptocephalus cynoglossus"
     recombination: 1
     number of phenotypes: 2
     environmental noise: 0.01
@@ -25382,7 +25382,7 @@ species:
       - 0
       - 0
       - 1
-    id: "Lumpenus lampretaeformis"
+    name: "Lumpenus lampretaeformis"
     recombination: 1
     number of phenotypes: 2
     environmental noise: 0.01
@@ -31669,7 +31669,7 @@ species:
       - 0
       - 0
       - 1
-    id: "Platichthys flesus"
+    name: "Platichthys flesus"
     recombination: 1
     number of phenotypes: 2
     environmental noise: 0.01
@@ -37956,7 +37956,7 @@ species:
       - 0
       - 0
       - 1
-    id: "Dicentrarchus labrax"
+    name: "Dicentrarchus labrax"
     recombination: 1
     number of phenotypes: 2
     environmental noise: 0.01
@@ -44243,7 +44243,7 @@ species:
       - 0
       - 0
       - 1
-    id: "Trachinus draco"
+    name: "Trachinus draco"
     recombination: 1
     number of phenotypes: 2
     environmental noise: 0.01
@@ -50530,7 +50530,7 @@ species:
       - 0
       - 0
       - 1
-    id: "Aphia minuta"
+    name: "Aphia minuta"
     recombination: 1
     number of phenotypes: 2
     environmental noise: 0.01
@@ -56817,7 +56817,7 @@ species:
       - 0
       - 0
       - 1
-    id: "Enchelyopus cimbrius"
+    name: "Enchelyopus cimbrius"
     recombination: 1
     number of phenotypes: 2
     environmental noise: 0.01
@@ -63104,7 +63104,7 @@ species:
       - 0
       - 0
       - 1
-    id: "Lycenchelys sarsii"
+    name: "Lycenchelys sarsii"
     recombination: 1
     number of phenotypes: 2
     environmental noise: 0.01
@@ -69391,7 +69391,7 @@ species:
       - 0
       - 0
       - 1
-    id: "Lycodes vahlii"
+    name: "Lycodes vahlii"
     recombination: 1
     number of phenotypes: 2
     environmental noise: 0.01
@@ -75678,7 +75678,7 @@ species:
       - 0
       - 0
       - 1
-    id: "Chelidonichthys cuculus"
+    name: "Chelidonichthys cuculus"
     recombination: 1
     number of phenotypes: 2
     environmental noise: 0.01

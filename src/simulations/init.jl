@@ -48,18 +48,18 @@ function create_dicts(space=[6, 10])
 
 
   species_parameters = Dict(
-    1 => Dict("id" => "Platichthys flesus", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
-    2 => Dict("id" => "Aphia minuta", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
-    3 => Dict("id" => "Chelidonichthys cuculus", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
-    4 => Dict("id" => "Dicentrarchus labrax", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
-    5 => Dict("id" => "Scophthalmus rhombus", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
-    6 => Dict("id" => "Trachinus draco", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
-    7 => Dict("id" => "Hippoglossoides platessoides", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
-    8 => Dict("id" => "Lumpenus lampretaeformis", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
-    9 => Dict("id" => "Lycodes vahlii", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
-    10 => Dict("id" => "Enchelyopus cimbrius", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
-    11 => Dict("id" => "Lycenchelys sarsii", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
-    12 => Dict("id" => "Glyptocephalus cynoglossus", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)])
+    1 => Dict("name" => "Platichthys flesus", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
+    2 => Dict("name" => "Aphia minuta", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
+    3 => Dict("name" => "Chelidonichthys cuculus", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
+    4 => Dict("name" => "Dicentrarchus labrax", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
+    5 => Dict("name" => "Scophthalmus rhombus", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
+    6 => Dict("name" => "Trachinus draco", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
+    7 => Dict("name" => "Hippoglossoides platessoides", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
+    8 => Dict("name" => "Lumpenus lampretaeformis", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
+    9 => Dict("name" => "Lycodes vahlii", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
+    10 => Dict("name" => "Enchelyopus cimbrius", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
+    11 => Dict("name" => "Lycenchelys sarsii", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)]),
+    12 => Dict("name" => "Glyptocephalus cynoglossus", "expression array" => rand(2, 2), "N" =>rand(10:100, nsites), "optimal phenotype values" => [rand(nsites)])
   )
 
   for (k, v) in species_parameters
