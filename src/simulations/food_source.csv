@@ -1,0 +1,13 @@
+Food sources,Platichthys flesus,Aphia minuta,Chelidonichthys cuculus,Dicentrarchus labrax,Scophthalmus rhombus,Trachinus draco,Hippoglossoides platessoides,Lumpenus lampretaeformis,Lycodes vahlii,Enchelyopus cimbrius,Lycenchelys sarsii,Glyptocephalus cynoglossus
+Platichthys flesus,1,0,0,0,0,0,0,0,0,0,0,0
+Aphia minuta,1,1,0,0,1,0,0,0,0,0,0,0
+Chelidonichthys cuculus,0,0,1,0,0,0,0,0,0,0,0,0
+Dicentrarchus labrax,0,0,0,1,0,0,0,0,0,0,0,0
+Scophthalmus rhombus,0,0,0,0,1,0,0,0,0,0,0,0
+Trachinus draco,0,0,0,0,0,1,0,0,0,0,0,0
+Hippoglossoides platessoides,0,0,0,0,0,0,1,0,0,0,0,0
+Lumpenus lampretaeformis,0,0,0,0,0,0,1,1,0,0,0,0
+Lycodes vahlii,0,0,0,0,0,0,0,0,1,0,0,0
+Enchelyopus cimbrius,0,0,0,0,0,0,0,0,0,1,0,0
+Lycenchelys sarsii,0,0,0,0,0,0,0,0,0,0,1,1
+Glyptocephalus cynoglossus,0,0,0,0,0,0,0,0,0,0,0,1
