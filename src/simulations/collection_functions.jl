@@ -60,3 +60,21 @@ function abiotic_value_per_site(model::ABM)
   end
   return output
 end
+
+### reshape the outputs
+### --------------------
+
+function add_columns(model::ABM, results; base_names::Vector{String}=["age_per_site", "migration_rates_per_site", "abiotic_value_per_site"], summary_functions=["mean", "std", "median"])
+  flattened_df = flatten(results, Symbol.(base_names))
+  nsteps = length(results.step)
+  nsites = length(model.properties.nodes)
+  species_names = [model.names[i] for i in 1:model.nspecies]
+  species = repeat(species_names, outer= nsites * length(summary_functions)*nsteps)
+  sites = repeat(1:nsites, inner=length(species_names), outer=length(summary_functions) * nsteps)
+  sfunctions = repeat(summary_functions, inner=nsites*length(species_names), outer=nsteps)
+
+  flattened_df[:, :species] = species
+  flattened_df[:, :site] = sites
+  flattened_df[:, :summary] = sfunctions
+  return flattened_df
+end
