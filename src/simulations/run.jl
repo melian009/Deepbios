@@ -1,5 +1,5 @@
 using Distributed
-Distributed.addprocs(2)
+Distributed.addprocs()
 @everywhere using EvoDynamics
 @everywhere using Pkg
 @everywhere Pkg.activate(".")
@@ -16,7 +16,7 @@ Distributed.addprocs(2)
 #   EvoDynamics.YAML.write_file(param_file, data)
 # end
 
-_, results, model = EvoDynamics.runmodel(param_file, adata=nothing, mdata=[count_per_site, age_per_site, migration_rates_per_site, abiotic_value_per_site,  biotic_value_per_site], when = [0,1,20,40,60,80,100], replicates=3, parallel=true)
+_, results, model = EvoDynamics.runmodel(param_file, adata=nothing, mdata=[count_per_site, age_per_site, migration_rates_per_site, abiotic_value_per_site,  biotic_value_per_site], when = [0,1,20,40,60,80,100], replicates=100, parallel=true)
 
 # # reshape the output
 # base_names=["age_per_site", "migration_rates_per_site", "abiotic_value_per_site"]

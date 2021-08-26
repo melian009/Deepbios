@@ -14,7 +14,7 @@ function create_dicts(space=[6, 10])
     "resources" => rand(4000:7000, nsites),  # available resources per site per time
     "interactions" => interactions,
     "food sources" => foodsource,
-    "seed" => 1
+    "seed" => nothing
   )
 
   species_parameters_common = Dict(
