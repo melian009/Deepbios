@@ -11,10 +11,10 @@ Distributed.addprocs()
 @everywhere include("init.jl")
 
 @everywhere param_file = "initialization.yml"
-# if !isfile(param_file)
-#   data = create_dicts()
-#   EvoDynamics.YAML.write_file(param_file, data)
-# end
+if !isfile(param_file)
+  data = create_dicts()
+  EvoDynamics.YAML.write_file(param_file, data)
+end
 
 _, results, model = EvoDynamics.runmodel(param_file, adata=nothing, mdata=[count_per_site, age_per_site, migration_rates_per_site, abiotic_value_per_site,  biotic_value_per_site], when = [0,1,20,40,60,80,100], replicates=100, parallel=true)
 
