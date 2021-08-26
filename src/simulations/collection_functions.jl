@@ -45,7 +45,6 @@ function migration_rates_per_site(model::ABM)
   return output
 end
 
-
 function abiotic_value_per_site(model::ABM)
   functions = [mymean, mystd, mymedian]
   spacesize = size(model.space)
@@ -61,10 +60,25 @@ function abiotic_value_per_site(model::ABM)
   return output
 end
 
+function biotic_value_per_site(model::ABM)
+  functions = [mymean, mystd, mymedian]
+  spacesize = size(model.space)
+  output = Array{Float64, 3}(undef, model.nspecies, prod(spacesize), 3)
+  for funcind in 1:3
+    func = functions[funcind]
+    for site in 1:prod(spacesize)
+      for sp in 1:model.nspecies
+        output[sp, site, funcind] = func([sum(EvoDynamics.get_biotic_phenotype(model[x], model)) for x in filter(x-> model[x].species == sp, model.space.s[site])])
+      end
+    end
+  end
+  return output
+end
+
 ### reshape the outputs
 ### --------------------
 
-function add_columns(model::ABM, results; base_names::Vector{String}=["age_per_site", "migration_rates_per_site", "abiotic_value_per_site"], summary_functions=["mean", "std", "median"])
+function add_columns(model::ABM, results; base_names::Vector{String}=["age_per_site", "migration_rates_per_site", "abiotic_value_per_site", "biotic_value_per_site"], summary_functions=["mean", "std", "median"])
   flattened_df = flatten(results, Symbol.(base_names))
   nsteps = length(results.step)
   nsites = length(model.properties.nodes)

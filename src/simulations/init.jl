@@ -17,7 +17,6 @@ function create_dicts(space=[6, 10])
     "seed" => 1
   )
 
-
   species_parameters_common = Dict(
     "number of genes" => 2,
     "number of phenotypes" => 2,
