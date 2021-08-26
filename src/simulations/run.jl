@@ -22,3 +22,7 @@ similar_columns = vcat([:step], Symbol.(base_names))
 
 df = add_columns(model, results[:, similar_columns], base_names=base_names, summary_functions=["mean", "std", "median"])
 df_count_only = add_columns(model, results[:, [:step, :count_per_site]], base_names=["count_per_site"], summary_functions=["identity"])
+
+# write to file
+CSV.write("results/all_except_N.csv", df)
+CSV.write("results/N.csv", df_count_only)
