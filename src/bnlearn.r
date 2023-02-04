@@ -1,6 +1,7 @@
 library(bnlearn)
 
-df = read.csv("data/large/DB_cleaned_discretized.csv")
+# df = read.csv("data/large/DB_cleaned_discretized.csv") @CM Feb 4 2023
+df = read.csv("DB_cleaned_discretized.csv")
 
 ## change data type to factor because bnlearn needs that
 df[, 1:20] <- lapply(df[,1:20], as.factor)
@@ -22,9 +23,14 @@ df2 = df[, -c(1,13)]
 * Any arc whitelisted and blacklisted at the same time is assumed to be whitelisted, and is thus removed from the blacklist. In other words, the whitelist has precedence over the blacklist.
 """
 
-wl = read.csv("data/small/node_whitelist.csv")
-bl = read.csv("data/small/node_blacklist.csv")
-bl2 = read.csv("data/small/node_blacklist_noSurvey.csv")
+#wl = read.csv("data/small/node_whitelist.csv") @CM Feb 4 2023
+#bl = read.csv("data/small/node_blacklist.csv") @CM Feb 4 2023
+#bl2 = read.csv("data/small/node_blacklist_noSurvey.csv") @CM Feb 4 2023
+
+wl = read.csv("node_whitelist.csv")
+bl = read.csv("node_blacklist.csv")
+bl2 = read.csv("node_blacklist_noSurvey.csv")
+
 
 ## Structure learning with PC algorithm. Does not result in any reasonable network
 bn_pc = pc.stable(df, whitelist=wl, blacklist=bl)

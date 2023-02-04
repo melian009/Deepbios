@@ -46,7 +46,8 @@ end
 # merged_data = merge_haul_length()
 
 # merged data is in DBa.csv
-db = CSV.read("data/large/DBa.csv", DataFrame)
+db = CSV.read("DBa.csv", DataFrame) 
+#db = CSV.read("data/large/DBa.csv", DataFrame) @CM Feb 4 2023
 
 # describe(db)
 db = db[!, 9:end]
@@ -98,9 +99,11 @@ rename!(db_final, :Depth2 => :Depth)
 # db_final = db_final[keeprows, :]
 
 # Save with JDF for compressed saving and fast loading
-JDF.save("data/large/DB_cleaned.jdf", db_final)
+#JDF.save("data/large/DB_cleaned.jdf", db_final) @CM Feb 4 2023
+JDF.save("DB_cleaned.jdf", db_final)
 #Load it with the command below:
-df = DataFrame(JDF.load("data/large/DB_cleaned.jdf"))
+#df = DataFrame(JDF.load("data/large/DB_cleaned.jdf")) @CM Feb 4 2023
+df = DataFrame(JDF.load("DB_cleaned.jdf"))
 
 ## TODO: Descretize the data
 using Discretizers
@@ -178,7 +181,8 @@ CSV.write("DB_cleaned_discretized_all.csv", dfd)
 
 # Structure learning using greedy hill climbing
 using BayesNets
-df = CSV.read("large/DB_cleaned_discretized_all.csv", DataFrame)
+#df = CSV.read("large/DB_cleaned_discretized_all.csv", DataFrame) @CM Feb 4 2023 
+df = CSV.read("DB_cleaned_discretized_all.csv", DataFrame)
 
 parameters = GreedyHillClimbing(ScoreComponentCache(df), max_n_parents=15, prior=UniformPrior())
 bn = fit(DiscreteBayesNet, df, parameters)
@@ -222,7 +226,8 @@ function survey_species(df, survey)
   return outdf
 end
 
-df = DataFrame(JDF.load("data/large/DB_cleaned.jdf"))
+#df = DataFrame(JDF.load("data/large/DB_cleaned.jdf")) @CM Feb 4 2023
+df = DataFrame(JDF.load("DB_cleaned.jdf"))
 
 surveys = levels(df.Survey)
 surveys = surveys[8] # limiting to NS_IBTS as it is the oldest time-series.
